@@ -22,32 +22,26 @@ export default class Schedule extends React.Component {
       },
       {
         id: 2,
-        name: "Bit Trip Runner 2",
+        name: "The Witcher 3",
         time: "9:00am",
-        link: "http://store.steampowered.com/app/218060/"
+        link: "http://store.steampowered.com/app/292030/"
       },
       {
         id: 3,
         name: "Rocket League",
-        time: "10:00am",
+        time: "12:00pm",
         link: "http://store.steampowered.com/app/252950/"
       },
       {
         id: 4,
-        name: "Bioshock Infinite",
-        time: "11:00am",
-        link: "http://store.steampowered.com/agecheck/app/8870/"
-      },
-      {
-        id: 5,
         name: "Offworld Trading Company Multiplayer",
-        time: "1:00pm",
+        time: "2:00pm",
         link: "http://store.steampowered.com/app/271240/"
       },
       {
         id: 6,
         name: "World of Tanks/Warships Multiplayer",
-        time: "2:00pm",
+        time: "3:00pm",
         link: "http://na.wargaming.net/"
       },
       {
@@ -58,9 +52,9 @@ export default class Schedule extends React.Component {
       },
       {
         id: 8,
-        name: "The Witcher 3",
+        name: "Overwatch",
         time: "5:00pm",
-        link: "http://store.steampowered.com/app/292030/"
+        link: "https://playoverwatch.com/en-us/"
       },
       {
         id: 9,
@@ -88,21 +82,21 @@ export default class Schedule extends React.Component {
       },
       {
         id: 13,
-        name: "Kerbal Space Program",
+        name: "Darkest Dungeon",
         time: "1:00am",
-        link: "http://store.steampowered.com/app/220200/"
+        link: "http://store.steampowered.com/app/262060/"
       },
       {
         id: 14,
-        name: "DST Rollback",
-        time: "2:00am",
-        link: "http://s3.amazonaws.com/rapgenius/2-am1.jpg"
+        name: "Darkest Dungeon",
+        time: "1:00am",
+        link: "http://store.steampowered.com/app/262060/"
       },
       {
         id: 15,
-        name: "TBD",
-        time: "3:00am",
-        link: "http://rlv.zcache.com/shrug_emoticon_%E3%83%84_japanese_kaomoji_wrapping_paper-r5582b5d2d4f940e79492a7819064e254_zkknt_8byvr_324.jpg"
+        name: "TBD - If you're watching, I'll take requests",
+        time: "2:00am",
+        link: "http://img.memecdn.com/that-moment-when-you-stay-up-all-night-researching-on-how-to-shoot-your-seeds-further_o_3889183.jpg"
       }
     ];
 
