@@ -1,17 +1,20 @@
-const express = require("express");
+/* eslint-disable react/jsx-filename-extension */
+
+import React from 'react';
+import { renderToString } from 'react-dom/server';
+import App from '../public/javascripts/components/app';
+
+const express = require('express');
+
 const router = express.Router();
 
-import { renderToString } from "react-dom/server";
-import App from "../public/javascripts/components/app";
-import React from "react";
-
 /* GET home page. */
-router.get("/", function(req, res) {
+router.get('/', (req, res) => {
   const markup = renderToString(<App />);
 
-  res.render("index", {
-    title: "ExtraLife 2016",
-    markup: markup
+  res.render('index', {
+    title: 'ExtraLife 2016',
+    markup,
   });
 });
 
