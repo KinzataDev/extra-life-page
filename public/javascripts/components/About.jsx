@@ -14,7 +14,7 @@ export default class About extends React.Component {
         <div className="row">
           <div className="col-xs-6 purpose">
             <p>Extra Life unites thousands of players around the world in a 24 hour gaming marathon to support
-              Children’s Miracle Network Hospitals.  Since its inception in 2008, Extra Life has raised more than $22
+              Children’s Miracle Network Hospitals.  Since its inception in 2008, Extra Life has raised more than $30
               million for local CMN Hospitals.  This year I am participating in the 24 hour marathon for the second time
               in order to raise money.
               <br />

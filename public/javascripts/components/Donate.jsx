@@ -1,4 +1,5 @@
 import React from 'react';
+import './Donate.css';
 
 const $ = require('jquery');
 
@@ -33,7 +34,7 @@ export default class Donate extends React.Component {
   render() {
     return (
       <div className="donate">
-        <div className="row show-on-small">
+        <div className="row show-on-small external-button-large">
           <a href="http://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=233033">
             DONATE HERE</a>
         </div>
@@ -42,17 +43,17 @@ export default class Donate extends React.Component {
             <div className="row row-flex">
               <div className="card">
                 <div className="card-block">
-                  <p className="card-text">Last year we raised $690.28</p>
+                  <p className="card-text">Last year we raised $1,000</p>
                 </div>
               </div>
               <div className="card">
                 <div className="card-block">
-                  <p className="card-text">Extra Life raised $8 million in 2015</p>
+                  <p className="card-text">Extra Life raised $9.6 million in 2016</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-xs-4 center hide-on-small contract-on-small">
+          <div className="col-xs-4 center hide-on-small contract-on-small external-button-large">
             <div className="row">
               <a href="http://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=233033">
                 DONATE HERE</a>
@@ -62,12 +63,12 @@ export default class Donate extends React.Component {
             <div className="row row-flex">
               <div className="card">
                 <div className="card-block">
-                  <p className="card-text">For 2016 we’ve raised: ${this.state.donationAmount}</p>
+                  <p className="card-text">For 2017 we’ve raised: ${this.state.donationAmount}</p>
                 </div>
               </div>
               <div className="card">
                 <div className="card-block">
-                  <p className="card-text">Extra Life has raised more than $22 million since 2008</p>
+                  <p className="card-text">Extra Life has raised more than $30 million since 2008</p>
                 </div>
               </div>
             </div>

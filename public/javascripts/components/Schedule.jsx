@@ -1,5 +1,6 @@
 import React from 'react';
 import GameListItem from './GameListItem';
+import './Schedule.css';
 
 export default class Schedule extends React.Component {
   constructor() {
@@ -102,8 +103,8 @@ export default class Schedule extends React.Component {
       <div className="schedule">
         <div className="col-xs-1" />
         <div className="col-xs-10">
-          <h2 className="text-center">Game Schedule</h2>
-          <div className="row text-center important-a-tag">
+          <h2>Game Schedule</h2>
+          <div className="row external-button-small">
             <a href="http://twitch.tv/kinzata"> Watch me live on Twitch here </a>
           </div>
           <table className="table table-hover">

@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import './GameListItem.css';
 
 class GameListItem extends React.Component {
   constructor() {
@@ -16,7 +18,7 @@ class GameListItem extends React.Component {
 
     return (
       <tr
-        className="row-hover hover-pointer"
+        className="game-list-item"
         onClick={this.onRowClicked}
       >
         <td>{name}</td>
@@ -27,10 +29,10 @@ class GameListItem extends React.Component {
 }
 
 GameListItem.propTypes = {
-  item: React.PropTypes.shape({
-    link: React.PropTypes.string.isRequired,
-    name: React.PropTypes.string.isRequired,
-    time: React.PropTypes.string.isRequired,
+  item: PropTypes.shape({
+    link: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    time: PropTypes.string.isRequired,
   }).isRequired,
 
 };

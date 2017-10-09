@@ -3,6 +3,14 @@ require('babel-register')({
   presets: ['es2015', 'react'],
 });
 
+require('babel-core/register')({
+  presets: ['es2015', 'react'],
+});
+
+require.extensions['.scss'] = () => {};
+
+require.extensions['.css'] = () => {};
+
 const debug = require('debug')('expressiso');
 const app = require('../app');
 

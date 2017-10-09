@@ -1,8 +1,9 @@
 import React from 'react';
-import Header from './header';
-import About from './about';
-import Donate from './donate';
-import Schedule from './schedule';
+import Header from './Header';
+import About from './About';
+import Donate from './Donate';
+import Schedule from './Schedule';
+import '../../stylesheets/style.css';
 
 export default function App() {
   return (
