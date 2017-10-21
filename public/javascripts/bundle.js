@@ -32733,7 +32733,7 @@ var Donate = function (_React$Component) {
               { className: 'row' },
               _react2.default.createElement(
                 'a',
-                { href: 'http://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=233033' },
+                { href: 'https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=36868' },
                 'DONATE HERE'
               )
             )
@@ -32804,6 +32804,8 @@ var _propTypes = __webpack_require__(58);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
+__webpack_require__(206);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -32811,8 +32813,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-// import './GameListItem.css';
 
 var GameListGroupItem = function (_React$Component) {
   _inherits(GameListGroupItem, _React$Component);
@@ -32831,7 +32831,7 @@ var GameListGroupItem = function (_React$Component) {
 
       return _react2.default.createElement(
         'td',
-        null,
+        { className: 'game-list-item' },
         _react2.default.createElement(
           'a',
           { href: link },
@@ -32879,8 +32879,6 @@ var _GameListGroupItem = __webpack_require__(194);
 
 var _GameListGroupItem2 = _interopRequireDefault(_GameListGroupItem);
 
-__webpack_require__(206);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -32907,10 +32905,10 @@ var GameListRow = function (_React$Component) {
 
       return _react2.default.createElement(
         'tr',
-        { className: 'game-list-item' },
+        null,
         _react2.default.createElement(
           'td',
-          null,
+          { className: 'table-column-first' },
           time
         ),
         items.map(function (column) {
@@ -33029,7 +33027,7 @@ var Schedule = function (_React$Component) {
         twitch: 'http://twitch.tv/ryan_plays_mediocrely'
       }, {
         name: 'Andy',
-        twitch: null
+        twitch: 'http://twitch.tv/andsominity'
       }, {
         name: 'Darrell',
         twitch: null
@@ -33041,10 +33039,9 @@ var Schedule = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         { className: 'schedule' },
-        _react2.default.createElement('div', { className: 'col-xs-1' }),
         _react2.default.createElement(
           'div',
-          { className: 'col-xs-10' },
+          { className: 'col-xs-12' },
           _react2.default.createElement(
             'h2',
             null,
@@ -33077,11 +33074,7 @@ var Schedule = function (_React$Component) {
                   return _react2.default.createElement(
                     'th',
                     { key: row.name },
-                    row.twitch !== null ? _react2.default.createElement(
-                      'a',
-                      { href: row.twitch },
-                      row.name
-                    ) : _react2.default.createElement(
+                    _react2.default.createElement(
                       'span',
                       null,
                       row.name
@@ -33093,6 +33086,26 @@ var Schedule = function (_React$Component) {
             _react2.default.createElement(
               'tbody',
               null,
+              _react2.default.createElement(
+                'tr',
+                null,
+                _react2.default.createElement(
+                  'td',
+                  { className: 'table-column-first twitch-link-cell' },
+                  'Twitch Link'
+                ),
+                headerNames.map(function (row) {
+                  return _react2.default.createElement(
+                    'td',
+                    { className: 'twitch-link-cell', key: row.name },
+                    _react2.default.createElement(
+                      'a',
+                      { href: row.twitch },
+                      'Watch Me'
+                    )
+                  );
+                })
+              ),
               _ScheduleData2.default.map(function (row) {
                 return _react2.default.createElement(_GameListRow2.default, {
                   key: row.id,
@@ -33102,8 +33115,7 @@ var Schedule = function (_React$Component) {
               })
             )
           )
-        ),
-        _react2.default.createElement('div', { className: 'col-xs-1' })
+        )
       );
     }
   }]);
@@ -33122,7 +33134,7 @@ exports = module.exports = __webpack_require__(25)(undefined);
 
 
 // module
-exports.push([module.i, ".donate {\n  margin-left: 15px;\n  margin-right: 15px;\n  color: #1d4c6c;\n  font-family: Furore; }\n\n.show-on-small {\n  visibility: visible;\n  height: inherit; }\n  @media (min-width: 956px) {\n    .show-on-small {\n      visibility: hidden;\n      height: 1; } }\n\n.hide-on-small {\n  visibility: hidden; }\n  @media (min-width: 956px) {\n    .hide-on-small {\n      visibility: visible; } }\n\n@media (max-width: 955px) {\n  .contract-on-small {\n    width: 0%; } }\n\n@media (max-width: 955px) {\n  .stretch-on-small {\n    width: 50%; } }\n", ""]);
+exports.push([module.i, ".table-column-first {\n  border-right: 1px solid;\n  color: #23c1e8; }\n  .table-column-first a:hover {\n    color: #23c1e8; }\n\n.twitch-link-cell {\n  background-color: #4b367c;\n  color: white; }\n  .twitch-link-cell a {\n    color: white; }\n\n.donate {\n  margin-left: 15px;\n  margin-right: 15px;\n  color: #1d4c6c;\n  font-family: Furore; }\n\n.show-on-small {\n  visibility: visible;\n  height: inherit; }\n  @media (min-width: 956px) {\n    .show-on-small {\n      visibility: hidden;\n      height: 0; } }\n\n.hide-on-small {\n  visibility: hidden; }\n  @media (min-width: 956px) {\n    .hide-on-small {\n      visibility: visible; } }\n\n@media (max-width: 955px) {\n  .contract-on-small {\n    width: 0%; } }\n\n@media (max-width: 955px) {\n  .stretch-on-small {\n    width: 50%; } }\n", ""]);
 
 // exports
 
@@ -33136,7 +33148,7 @@ exports = module.exports = __webpack_require__(25)(undefined);
 
 
 // module
-exports.push([module.i, ".game-list-item {\n  color: #23c1e8;\n  cursor: pointer; }\n  .game-list-item :hover {\n    color: #96d400; }\n", ""]);
+exports.push([module.i, ".table-column-first {\n  border-right: 1px solid;\n  color: #23c1e8; }\n  .table-column-first a:hover {\n    color: #23c1e8; }\n\n.twitch-link-cell {\n  background-color: #4b367c;\n  color: white; }\n  .twitch-link-cell a {\n    color: white; }\n\n.game-list-item {\n  color: #23c1e8;\n  cursor: pointer; }\n  .game-list-item a:hover {\n    color: #96d400; }\n", ""]);
 
 // exports
 
@@ -33150,7 +33162,7 @@ exports = module.exports = __webpack_require__(25)(undefined);
 
 
 // module
-exports.push([module.i, ".schedule {\n  text-align: left;\n  font-family: Furore; }\n\n.external-button-small {\n  text-align: center; }\n\nthead {\n  letter-spacing: 2px; }\n\nh2 {\n  text-align: center; }\n", ""]);
+exports.push([module.i, ".table-column-first {\n  border-right: 1px solid;\n  color: #23c1e8; }\n  .table-column-first a:hover {\n    color: #23c1e8; }\n\n.twitch-link-cell {\n  background-color: #4b367c;\n  color: white; }\n  .twitch-link-cell a {\n    color: white; }\n\n.schedule {\n  text-align: left;\n  font-family: Furore; }\n\n.external-button-small {\n  text-align: center; }\n\nthead {\n  letter-spacing: 2px; }\n\nth span {\n  color: #23c1e8; }\n\nh2 {\n  text-align: center; }\n", ""]);
 
 // exports
 
@@ -33164,7 +33176,7 @@ exports = module.exports = __webpack_require__(25)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\n  font-family: Furore;\n  src: url(" + __webpack_require__(203) + "); }\n@font-face {\n  font-family: Cantarell;\n  src: url(" + __webpack_require__(202) + "); }\nbody {\n  background: url(" + __webpack_require__(204) + ") no-repeat fixed;\n  text-align: center;\n  color: white;\n  font-family: Cantarell; }\n\nh1, h2, h3, h4, h5 {\n  color: #23c1e8;\n  font-family: Furore; }\n\nhr {\n  border-bottom: 2px dashed #96d400; }\n\na {\n  color: #f28b20; }\n\na:hover, a:focus {\n  color: #96d400;\n  text-decoration: none; }\n\n.bg-dark-blue {\n  background-color: #1d4c6c; }\n\n.bg-light-blue {\n  background-color: #23c1e8; }\n\n.top-margin {\n  margin-top: 5em; }\n\n.bottom-margin {\n  margin-bottom: 5em; }\n\n.border-shadow {\n  box-shadow: 0px 0px 100px 0px #23c1e8;\n  border-radius: 1em;\n  background: black 1px 1px; }\n\n.content {\n  background-color: #1d4c6c; }\n\n.card {\n  background-color: #96d400; }\n\n.header {\n  padding-top: 1em; }\n\n.external-button-large {\n  padding: 5px; }\n  .external-button-large a {\n    color: #f28b20;\n    font-size: xx-large;\n    border: 5px solid #f28b20;\n    box-shadow: 5px 5px #96d400;\n    padding: 5px; }\n  .external-button-large a:hover {\n    color: #96d400;\n    box-shadow: 5px 5px #f28b20;\n    border-color: #96d400;\n    text-decoration: none; }\n  .external-button-large a:focus {\n    text-decoration: none; }\n  .external-button-large a:active {\n    color: #23c1e8;\n    border-color: #23c1e8; }\n\n.external-button-small {\n  padding: 5px; }\n  .external-button-small a {\n    color: #f28b20;\n    font-size: large;\n    border: 3px solid #f28b20;\n    box-shadow: 3px 3px #96d400;\n    padding: 3px; }\n  .external-button-small a:hover {\n    color: #96d400;\n    box-shadow: 3px 3px #f28b20;\n    border-color: #96d400;\n    text-decoration: none; }\n  .external-button-small a:focus {\n    text-decoration: none; }\n  .external-button-small a:active {\n    color: #23c1e8;\n    border-color: #23c1e8; }\n\n.text-center {\n  text-align: center; }\n\n.border {\n  border: 3px solid black; }\n\n.center {\n  display: flex;\n  justify-content: center;\n  flex-direction: column; }\n\n.flex {\n  display: flex; }\n\n.flex-card {\n  display: inline-flex;\n  flex-direction: column; }\n\n.row-flex {\n  display: inline-flex;\n  flex-direction: column; }\n", ""]);
+exports.push([module.i, ".table-column-first {\n  border-right: 1px solid;\n  color: #23c1e8; }\n  .table-column-first a:hover {\n    color: #23c1e8; }\n\n.twitch-link-cell {\n  background-color: #4b367c;\n  color: white; }\n  .twitch-link-cell a {\n    color: white; }\n\n@font-face {\n  font-family: Furore;\n  src: url(" + __webpack_require__(203) + "); }\n@font-face {\n  font-family: Cantarell;\n  src: url(" + __webpack_require__(202) + "); }\nbody {\n  background: url(" + __webpack_require__(204) + ") no-repeat fixed;\n  text-align: center;\n  color: white;\n  font-family: Cantarell; }\n\nh1, h2, h3, h4, h5 {\n  color: #23c1e8;\n  font-family: Furore; }\n\nhr {\n  border-bottom: 2px dashed #96d400; }\n\na {\n  color: #f28b20; }\n\na:hover, a:focus {\n  color: #96d400;\n  text-decoration: none; }\n\n.bg-dark-blue {\n  background-color: #1d4c6c; }\n\n.bg-light-blue {\n  background-color: #23c1e8; }\n\n.top-margin {\n  margin-top: 5em; }\n\n.bottom-margin {\n  margin-bottom: 5em; }\n\n.border-shadow {\n  box-shadow: 0px 0px 100px 0px #23c1e8;\n  border-radius: 1em;\n  background: black 1px 1px; }\n\n.content {\n  background-color: #1d4c6c; }\n\n.card {\n  background-color: #96d400; }\n\n.header {\n  padding-top: 1em; }\n\n.external-button-large {\n  padding: 5px; }\n  .external-button-large a {\n    color: #f28b20;\n    font-size: xx-large;\n    border: 5px solid #f28b20;\n    box-shadow: 5px 5px #96d400;\n    padding: 5px; }\n  .external-button-large a:hover {\n    color: #96d400;\n    box-shadow: 5px 5px #f28b20;\n    border-color: #96d400;\n    text-decoration: none; }\n  .external-button-large a:focus {\n    text-decoration: none; }\n  .external-button-large a:active {\n    color: #23c1e8;\n    border-color: #23c1e8; }\n\n.external-button-small {\n  padding: 5px; }\n  .external-button-small a {\n    color: #f28b20;\n    font-size: large;\n    border: 3px solid #f28b20;\n    box-shadow: 3px 3px #96d400;\n    padding: 3px; }\n  .external-button-small a:hover {\n    color: #96d400;\n    box-shadow: 3px 3px #f28b20;\n    border-color: #96d400;\n    text-decoration: none; }\n  .external-button-small a:focus {\n    text-decoration: none; }\n  .external-button-small a:active {\n    color: #23c1e8;\n    border-color: #23c1e8; }\n\n.text-center {\n  text-align: center; }\n\n.border {\n  border: 3px solid black; }\n\n.center {\n  display: flex;\n  justify-content: center;\n  flex-direction: column; }\n\n.flex {\n  display: flex; }\n\n.flex-card {\n  display: inline-flex;\n  flex-direction: column; }\n\n.row-flex {\n  display: inline-flex;\n  flex-direction: column; }\n\n.table tbody tr td:last-child {\n  border-right: 0; }\n\n.table tbody tr td:first-child {\n  border-left: 0; }\n\n.table tbody tr td,\n.table tbody tr th {\n  border-color: dimgray; }\n\n.table tbody tr td {\n  border-right-width: 1px;\n  border-right-style: solid;\n  vertical-align: middle; }\n", ""]);
 
 // exports
 

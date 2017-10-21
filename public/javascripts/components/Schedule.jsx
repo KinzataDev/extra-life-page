@@ -23,7 +23,7 @@ export default class Schedule extends React.Component {
       },
       {
         name: 'Andy',
-        twitch: null,
+        twitch: 'http://twitch.tv/andsominity',
       },
       {
         name: 'Darrell',
@@ -37,8 +37,7 @@ export default class Schedule extends React.Component {
 
     return (
       <div className="schedule">
-        <div className="col-xs-1" />
-        <div className="col-xs-10">
+        <div className="col-xs-12">
           <h2>Game Schedule</h2>
           <div className="row external-button-small">
             <a href="http://twitch.tv/kinzata"> Watch us live on Multi-Twitch here </a>
@@ -50,18 +49,25 @@ export default class Schedule extends React.Component {
                 {
                   headerNames.map(row => (
                     <th key={row.name}>
-                      {
-                        row.twitch !== null
-                          ? <a href={row.twitch}>{row.name}</a>
-                          : <span>{row.name}</span>
-                      }
-
+                      <span>{row.name}</span>
                     </th>
                   ))
                 }
               </tr>
             </thead>
             <tbody>
+              <tr>
+                <td className="table-column-first twitch-link-cell">
+                  Twitch Link
+                </td>
+                {
+                  headerNames.map(row => (
+                    <td className="twitch-link-cell" key={row.name}>
+                      <a href={row.twitch}>Watch Me</a>
+                    </td>
+                  ))
+                }
+              </tr>
               {
                 data.map(row => (
                   <GameListRow
@@ -74,7 +80,6 @@ export default class Schedule extends React.Component {
             </tbody>
           </table>
         </div>
-        <div className="col-xs-1" />
       </div>
     );
   }
