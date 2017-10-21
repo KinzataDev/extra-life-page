@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import './GameListItem.css';
+import './GameListRow.css';
 
 class GameListGroupItem extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class GameListGroupItem extends React.Component {
     const link = this.props.item.link;
 
     return (
-      <td><a href={link}>{name}</a></td>
+      <td className="game-list-item"><a href={link}>{name}</a></td>
     );
   }
 }

@@ -1,7 +1,19 @@
+.table-column-first {
+  border-right: 1px solid;
+  color: #23c1e8; }
+  .table-column-first a:hover {
+    color: #23c1e8; }
+
+.twitch-link-cell {
+  background-color: #4b367c;
+  color: white; }
+  .twitch-link-cell a {
+    color: white; }
+
 .game-list-item {
   color: #23c1e8;
   cursor: pointer; }
-  .game-list-item :hover {
+  .game-list-item a:hover {
     color: #96d400; }
 
 /*# sourceMappingURL=GameListRow.css.map */

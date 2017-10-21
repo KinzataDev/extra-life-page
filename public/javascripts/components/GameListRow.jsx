@@ -2,7 +2,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import GameListGroupItem from './GameListGroupItem';
-import './GameListRow.css';
 
 class GameListRow extends React.Component {
   render() {
@@ -10,8 +9,8 @@ class GameListRow extends React.Component {
     const time = this.props.time;
 
     return (
-      <tr className="game-list-item">
-        <td>{time}</td>
+      <tr>
+        <td className="table-column-first">{time}</td>
         {
           items.map(column => (
             <GameListGroupItem

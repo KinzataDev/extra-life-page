@@ -1,3 +1,15 @@
+.table-column-first {
+  border-right: 1px solid;
+  color: #23c1e8; }
+  .table-column-first a:hover {
+    color: #23c1e8; }
+
+.twitch-link-cell {
+  background-color: #4b367c;
+  color: white; }
+  .twitch-link-cell a {
+    color: white; }
+
 @font-face {
   font-family: Furore;
   src: url("../fonts/Furore.otf"); }
@@ -109,5 +121,20 @@ a:hover, a:focus {
 .row-flex {
   display: inline-flex;
   flex-direction: column; }
+
+.table tbody tr td:last-child {
+  border-right: 0; }
+
+.table tbody tr td:first-child {
+  border-left: 0; }
+
+.table tbody tr td,
+.table tbody tr th {
+  border-color: dimgray; }
+
+.table tbody tr td {
+  border-right-width: 1px;
+  border-right-style: solid;
+  vertical-align: middle; }
 
 /*# sourceMappingURL=style.css.map */

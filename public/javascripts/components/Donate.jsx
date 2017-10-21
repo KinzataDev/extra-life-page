@@ -54,7 +54,7 @@ export default class Donate extends React.Component {
           </div>
           <div className="col-xs-4 center hide-on-small contract-on-small external-button-large">
             <div className="row">
-              <a href="http://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=233033">
+              <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=36868">
                 DONATE HERE</a>
             </div>
           </div>
