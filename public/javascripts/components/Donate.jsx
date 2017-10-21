@@ -18,11 +18,10 @@ export default class Donate extends React.Component {
 
   getDonationAmount() {
     $.ajax({
-      url: 'http://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=233033&format=json',
+      url: 'https://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&teamID=36868&format=json',
       dataType: 'json',
       type: 'GET',
       success: function (data) {
-        console.log(data);
         this.setState({ donationAmount: data.totalRaisedAmount });
       }.bind(this),
       error(xhr, status, err) {
@@ -35,7 +34,7 @@ export default class Donate extends React.Component {
     return (
       <div className="donate">
         <div className="row show-on-small external-button-large">
-          <a href="http://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=233033">
+          <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=36868">
             DONATE HERE</a>
         </div>
         <div className="row flex">

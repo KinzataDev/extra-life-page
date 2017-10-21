@@ -10,7 +10,7 @@
   @media (min-width: 956px) {
     .show-on-small {
       visibility: hidden;
-      height: 0; } }
+      height: 1; } }
 
 .hide-on-small {
   visibility: hidden; }

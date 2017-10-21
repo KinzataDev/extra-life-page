@@ -1,101 +1,37 @@
 import React from 'react';
-import GameListItem from './GameListItem';
+import GameListRow from './GameListRow';
 import './Schedule.css';
+
+import data from './Schedule/ScheduleData';
 
 export default class Schedule extends React.Component {
   constructor() {
     super();
 
-    this.state = {
-    };
+    this.state = {};
   }
 
   render() {
-    const gameList = [
+    const headerNames = [
       {
-        id: 1,
-        name: 'Cook, Serve, Delicious',
-        time: '8:00am',
-        link: 'http://store.steampowered.com/app/247020/',
+        name: 'Maximilian',
+        twitch: 'http://twitch.tv/kinzata',
       },
       {
-        id: 2,
-        name: 'The Witcher 3',
-        time: '9:00am',
-        link: 'http://store.steampowered.com/app/292030/',
+        name: 'Ryan',
+        twitch: 'http://twitch.tv/ryan_plays_mediocrely',
       },
       {
-        id: 3,
-        name: 'Rocket League',
-        time: '12:00pm',
-        link: 'http://store.steampowered.com/app/252950/',
+        name: 'Andy',
+        twitch: null,
       },
       {
-        id: 4,
-        name: 'Offworld Trading Company Multiplayer',
-        time: '2:00pm',
-        link: 'http://store.steampowered.com/app/271240/',
+        name: 'Darrell',
+        twitch: null,
       },
       {
-        id: 6,
-        name: 'World of Tanks/Warships Multiplayer',
-        time: '3:00pm',
-        link: 'http://na.wargaming.net/',
-      },
-      {
-        id: 7,
-        name: 'Mordheim Multiplayer',
-        time: '4:00pm',
-        link: 'http://store.steampowered.com/app/276810/',
-      },
-      {
-        id: 8,
-        name: 'Overwatch',
-        time: '5:00pm',
-        link: 'https://playoverwatch.com/en-us/',
-      },
-      {
-        id: 9,
-        name: "Don't Starve Together",
-        time: '7:00pm',
-        link: 'http://store.steampowered.com/app/219740',
-      },
-      {
-        id: 10,
-        name: 'Killing Floor 2 Multiplayer',
-        time: '9:00pm',
-        link: 'http://store.steampowered.com/agecheck/app/232090/',
-      },
-      {
-        id: 11,
-        name: 'RimWorld',
-        time: '11:00pm',
-        link: 'http://store.steampowered.com/app/294100/',
-      },
-      {
-        id: 12,
-        name: 'Sunday, November 6th',
-        time: '12:00am',
-        link: 'http://i.imgur.com/rkt76wH.gifv',
-      },
-      {
-        id: 13,
-        name: 'Darkest Dungeon',
-        time: '1:00am',
-        link: 'http://store.steampowered.com/app/262060/',
-      },
-      {
-        id: 14,
-        name: 'Darkest Dungeon',
-        time: '1:00am',
-        link: 'http://store.steampowered.com/app/262060/',
-      },
-      {
-        id: 15,
-        name: "TBD - If you're watching, I'll take requests",
-        time: '2:00am',
-        link: 'http://img.memecdn.com/that-moment-when-you-stay-up-all-night-researching-on-how-to-shoot-your-seeds-' +
-        'further_o_3889183.jpg',
+        name: 'Eric',
+        twitch: 'http://twitch.tv/eric_plays_mediocrely',
       },
     ];
 
@@ -105,21 +41,33 @@ export default class Schedule extends React.Component {
         <div className="col-xs-10">
           <h2>Game Schedule</h2>
           <div className="row external-button-small">
-            <a href="http://twitch.tv/kinzata"> Watch me live on Twitch here </a>
+            <a href="http://twitch.tv/kinzata"> Watch us live on Multi-Twitch here </a>
           </div>
           <table className="table table-hover">
             <thead>
               <tr>
-                <th>Game Name</th>
                 <th>Time Played</th>
+                {
+                  headerNames.map(row => (
+                    <th key={row.name}>
+                      {
+                        row.twitch !== null
+                          ? <a href={row.twitch}>{row.name}</a>
+                          : <span>{row.name}</span>
+                      }
+
+                    </th>
+                  ))
+                }
               </tr>
             </thead>
             <tbody>
               {
-                gameList.map(row => (
-                  <GameListItem
+                data.map(row => (
+                  <GameListRow
                     key={row.id}
-                    item={row}
+                    time={row.time}
+                    items={row.items}
                   />
                 ))
               }
