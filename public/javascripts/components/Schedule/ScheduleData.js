@@ -180,7 +180,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
@@ -335,7 +335,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
