@@ -1,9 +1,9 @@
 @font-face {
   font-family: Furore;
-  src: url("/public/fonts/Furore.otf"); }
+  src: url("/fonts/Furore.otf"); }
 @font-face {
   font-family: Cantarell;
-  src: url("/public/fonts/Cantarell-Regular.ttf"); }
+  src: url("/fonts/Cantarell-Regular.ttf"); }
 .table-column-first {
   border-right: 1px solid;
   color: #23c1e8; }
