@@ -11,7 +11,8 @@
 }
 
 body {
-  background: url('../images/bluegridpattern_icons.jpg') no-repeat fixed;
+  background: url('../images/bluegridpattern-edit.png') no-repeat fixed;
+  background-size: cover;
   text-align: center;
   color: white;
   font-family: Cantarell;
@@ -62,6 +63,7 @@ a:hover, a:focus {
 }
 
 .card {
+  margin: 0 10% .75em 10%;
   background-color: $light-green;
 }
 

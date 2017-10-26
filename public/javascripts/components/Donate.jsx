@@ -39,7 +39,7 @@ export default class Donate extends React.Component {
         </div>
         <div className="row flex">
           <div className="col-xs-4 stretch-on-small">
-            <div className="row row-flex">
+            <div className="row">
               <div className="card">
                 <div className="card-block">
                   <p className="card-text">Last year we raised $1,000</p>
@@ -59,7 +59,7 @@ export default class Donate extends React.Component {
             </div>
           </div>
           <div className="col-xs-4 stretch-on-small">
-            <div className="row row-flex">
+            <div className="row">
               <div className="card">
                 <div className="card-block">
                   <p className="card-text">For 2017 we’ve raised: ${this.state.donationAmount}</p>

@@ -25,7 +25,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
@@ -56,7 +56,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
@@ -87,7 +87,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
@@ -118,7 +118,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
@@ -129,8 +129,8 @@ const data = [
     items: [
       {
         id: 1,
-        name: 'Rocket League',
-        link: 'https://www.rocketleague.com/',
+        name: 'Throne of Lies',
+        link: 'https://www.throneoflies.com/',
       },
       {
         id: 2,
@@ -139,7 +139,7 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
@@ -149,7 +149,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
@@ -160,8 +160,8 @@ const data = [
     items: [
       {
         id: 1,
-        name: 'Rocket League',
-        link: 'https://www.rocketleague.com/',
+        name: 'Throne of Lies',
+        link: 'https://www.throneoflies.com/',
       },
       {
         id: 2,
@@ -170,13 +170,13 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
         id: 4,
-        name: '',
-        link: '',
+        name: 'Overwatch',
+        link: 'https://playoverwatch.com/en-us/',
       },
       {
         id: 5,
@@ -206,12 +206,12 @@ const data = [
       },
       {
         id: 4,
-        name: '',
-        link: '',
+        name: 'Overwatch',
+        link: 'https://playoverwatch.com/en-us/',
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
@@ -242,7 +242,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
@@ -273,7 +273,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
@@ -299,12 +299,12 @@ const data = [
       },
       {
         id: 4,
-        name: '',
-        link: '',
+        name: 'Doom',
+        link: 'https://doom.com/en-us/',
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
@@ -330,8 +330,8 @@ const data = [
       },
       {
         id: 4,
-        name: '',
-        link: '',
+        name: 'Doom',
+        link: 'https://doom.com/en-us/',
       },
       {
         id: 5,
@@ -366,7 +366,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'N/A',
         link: '',
       },
     ],
@@ -397,7 +397,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'Eric Arrives',
         link: '',
       },
     ],
@@ -428,7 +428,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'TBD',
         link: '',
       },
     ],
@@ -459,7 +459,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'TBD',
         link: '',
       },
     ],
@@ -470,8 +470,8 @@ const data = [
     items: [
       {
         id: 1,
-        name: 'Cook Serve Delicious 2',
-        link: 'http://store.steampowered.com/app/386620/Cook_Serve_Delicious_2/',
+        name: 'Rocket League',
+        link: 'https://www.rocketleague.com/',
       },
       {
         id: 2,
@@ -480,7 +480,7 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
@@ -490,7 +490,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'TBD',
         link: '',
       },
     ],
@@ -511,7 +511,7 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
@@ -542,7 +542,7 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
@@ -573,7 +573,7 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
@@ -594,8 +594,8 @@ const data = [
     items: [
       {
         id: 1,
-        name: 'The Witness',
-        link: '',
+        name: 'Rocket League',
+        link: 'https://www.rocketleague.com/',
       },
       {
         id: 2,
@@ -604,13 +604,13 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
         id: 4,
-        name: '',
-        link: '',
+        name: 'Wolf Among Us',
+        link: 'https://telltale.com/series/the-wolf-among-us/',
       },
       {
         id: 5,
@@ -635,17 +635,17 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
         id: 4,
-        name: '',
-        link: '',
+        name: 'Wolf Among Us',
+        link: 'https://telltale.com/series/the-wolf-among-us/',
       },
       {
         id: 5,
-        name: '',
+        name: 'TBD',
         link: '',
       },
     ],
@@ -666,7 +666,7 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
@@ -676,7 +676,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'TBD',
         link: '',
       },
     ],
@@ -697,7 +697,7 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
@@ -707,7 +707,7 @@ const data = [
       },
       {
         id: 5,
-        name: '',
+        name: 'TBD',
         link: '',
       },
     ],
@@ -728,17 +728,17 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
         id: 4,
-        name: '',
-        link: '',
+        name: 'Alan Wake',
+        link: 'http://www.alanwake.com/',
       },
       {
         id: 5,
-        name: '',
+        name: 'TBD',
         link: '',
       },
     ],
@@ -759,17 +759,17 @@ const data = [
       },
       {
         id: 3,
-        name: '',
+        name: 'TBD',
         link: '',
       },
       {
         id: 4,
-        name: '',
-        link: '',
+        name: 'Alan Wake',
+        link: 'http://www.alanwake.com/',
       },
       {
         id: 5,
-        name: '',
+        name: 'TBD',
         link: '',
       },
     ],

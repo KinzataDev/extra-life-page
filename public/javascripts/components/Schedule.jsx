@@ -27,7 +27,7 @@ export default class Schedule extends React.Component {
       },
       {
         name: 'Darrell',
-        twitch: null,
+        twitch: 'http://twitch.tv/dmfaber1',
       },
       {
         name: 'Eric',
@@ -40,7 +40,8 @@ export default class Schedule extends React.Component {
         <div className="col-xs-12">
           <h2>Game Schedule</h2>
           <div className="row external-button-small">
-            <a href="http://twitch.tv/kinzata"> Watch us live on Multi-Twitch here </a>
+            <a href="http://multitwitch.tv/kinzata/ryan_plays_mediocrely/eric_plays_mediocrely/andsominity/dmfaber1">
+              Watch us live on Multi-Twitch here </a>
           </div>
           <table className="table table-hover">
             <thead>
