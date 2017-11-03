@@ -428,8 +428,8 @@ const data = [
       },
       {
         id: 5,
-        name: 'TBD',
-        link: '',
+        name: 'Heroes of the Storm',
+        link: 'http://us.battle.net/heroes/en/',
       },
     ],
   },
@@ -459,8 +459,8 @@ const data = [
       },
       {
         id: 5,
-        name: 'TBD',
-        link: '',
+        name: 'Dust: An Elysian Tail',
+        link: 'http://store.steampowered.com/app/236090/Dust_An_Elysian_Tail/',
       },
     ],
   },
@@ -480,8 +480,8 @@ const data = [
       },
       {
         id: 3,
-        name: 'TBD',
-        link: '',
+        name: "Five Nights at Freddy's 2",
+        link: 'http://store.steampowered.com/app/332800/Five_Nights_at_Freddys_2/',
       },
       {
         id: 4,
@@ -490,8 +490,8 @@ const data = [
       },
       {
         id: 5,
-        name: 'TBD',
-        link: '',
+        name: 'Dust: An Elysian Tail',
+        link: 'http://store.steampowered.com/app/236090/Dust_An_Elysian_Tail/',
       },
     ],
   },
@@ -511,8 +511,8 @@ const data = [
       },
       {
         id: 3,
-        name: 'TBD',
-        link: '',
+        name: "Five Nights at Freddy's 2",
+        link: 'http://store.steampowered.com/app/332800/Five_Nights_at_Freddys_2/',
       },
       {
         id: 4,
@@ -542,8 +542,8 @@ const data = [
       },
       {
         id: 3,
-        name: 'TBD',
-        link: '',
+        name: 'War for the Overworld',
+        link: 'http://store.steampowered.com/app/230190/War_for_the_Overworld/',
       },
       {
         id: 4,

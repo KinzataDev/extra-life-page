@@ -33468,8 +33468,8 @@ var data = [{
     link: 'http://armello.com/'
   }, {
     id: 5,
-    name: 'TBD',
-    link: ''
+    name: 'Heroes of the Storm',
+    link: 'http://us.battle.net/heroes/en/'
   }]
 }, {
   id: 15,
@@ -33492,8 +33492,8 @@ var data = [{
     link: 'http://armello.com/'
   }, {
     id: 5,
-    name: 'TBD',
-    link: ''
+    name: 'Dust: An Elysian Tail',
+    link: 'http://store.steampowered.com/app/236090/Dust_An_Elysian_Tail/'
   }]
 }, {
   id: 16,
@@ -33508,16 +33508,16 @@ var data = [{
     link: 'http://www.thelongdark.com/'
   }, {
     id: 3,
-    name: 'TBD',
-    link: ''
+    name: "Five Nights at Freddy's 2",
+    link: 'http://store.steampowered.com/app/332800/Five_Nights_at_Freddys_2/'
   }, {
     id: 4,
     name: 'Doom',
     link: 'https://doom.com/en-us/'
   }, {
     id: 5,
-    name: 'TBD',
-    link: ''
+    name: 'Dust: An Elysian Tail',
+    link: 'http://store.steampowered.com/app/236090/Dust_An_Elysian_Tail/'
   }]
 }, {
   id: 17,
@@ -33532,8 +33532,8 @@ var data = [{
     link: 'https://www.klei.com/games/dont-starve-together'
   }, {
     id: 3,
-    name: 'TBD',
-    link: ''
+    name: "Five Nights at Freddy's 2",
+    link: 'http://store.steampowered.com/app/332800/Five_Nights_at_Freddys_2/'
   }, {
     id: 4,
     name: 'Doom',
@@ -33556,8 +33556,8 @@ var data = [{
     link: 'https://us.battle.net/d3/en/'
   }, {
     id: 3,
-    name: 'TBD',
-    link: ''
+    name: 'War for the Overworld',
+    link: 'http://store.steampowered.com/app/230190/War_for_the_Overworld/'
   }, {
     id: 4,
     name: 'Wolf Among Us',
@@ -33748,7 +33748,7 @@ exports = module.exports = __webpack_require__(25)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\r\n  font-family: Furore;\r\n  src: url(\"/fonts/Furore.ttf\") format(\"truetype\"); }\r\n@font-face {\r\n  font-family: Cantarell;\r\n  src: url(\"/fonts/Cantarell-Regular.ttf\") format(\"truetype\"); }\r\n.table-column-first {\r\n  border-right: 1px solid;\r\n  color: #23c1e8; }\r\n  .table-column-first a:hover {\r\n    color: #23c1e8; }\r\n\r\n.twitch-link-cell {\r\n  background-color: #4b367c;\r\n  color: white; }\r\n  .twitch-link-cell a {\r\n    color: white; }\r\n\r\n.donate {\r\n  margin-left: 15px;\r\n  margin-right: 15px;\r\n  color: #1d4c6c;\r\n  font-family: Furore; }\r\n\r\n.show-on-small {\r\n  visibility: visible;\r\n  height: inherit; }\r\n  @media (min-width: 956px) {\r\n    .show-on-small {\r\n      visibility: hidden;\r\n      height: 0; } }\r\n\r\n.hide-on-small {\r\n  visibility: hidden; }\r\n  @media (min-width: 956px) {\r\n    .hide-on-small {\r\n      visibility: visible; } }\r\n\r\n@media (max-width: 955px) {\r\n  .contract-on-small {\r\n    width: 0%; } }\r\n\r\n@media (max-width: 955px) {\r\n  .stretch-on-small {\r\n    margin-top: 1em;\r\n    width: 50%; } }\r\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: Furore;\n  src: url(\"/fonts/Furore.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: Cantarell;\n  src: url(\"/fonts/Cantarell-Regular.ttf\") format(\"truetype\"); }\n.table-column-first {\n  border-right: 1px solid;\n  color: #23c1e8; }\n  .table-column-first a:hover {\n    color: #23c1e8; }\n\n.twitch-link-cell {\n  background-color: #4b367c;\n  color: white; }\n  .twitch-link-cell a {\n    color: white; }\n\n.donate {\n  margin-left: 15px;\n  margin-right: 15px;\n  color: #1d4c6c;\n  font-family: Furore; }\n\n.show-on-small {\n  visibility: visible;\n  height: inherit; }\n  @media (min-width: 956px) {\n    .show-on-small {\n      visibility: hidden;\n      height: 0; } }\n\n.hide-on-small {\n  visibility: hidden; }\n  @media (min-width: 956px) {\n    .hide-on-small {\n      visibility: visible; } }\n\n@media (max-width: 955px) {\n  .contract-on-small {\n    width: 0%; } }\n\n@media (max-width: 955px) {\n  .stretch-on-small {\n    margin-top: 1em;\n    width: 50%; } }\n", ""]);
 
 // exports
 
@@ -33762,7 +33762,7 @@ exports = module.exports = __webpack_require__(25)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\r\n  font-family: Furore;\r\n  src: url(\"/fonts/Furore.ttf\") format(\"truetype\"); }\r\n@font-face {\r\n  font-family: Cantarell;\r\n  src: url(\"/fonts/Cantarell-Regular.ttf\") format(\"truetype\"); }\r\n.table-column-first {\r\n  border-right: 1px solid;\r\n  color: #23c1e8; }\r\n  .table-column-first a:hover {\r\n    color: #23c1e8; }\r\n\r\n.twitch-link-cell {\r\n  background-color: #4b367c;\r\n  color: white; }\r\n  .twitch-link-cell a {\r\n    color: white; }\r\n\r\n.game-list-item {\r\n  color: #23c1e8;\r\n  cursor: pointer; }\r\n  .game-list-item a:hover {\r\n    color: #96d400; }\r\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: Furore;\n  src: url(\"/fonts/Furore.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: Cantarell;\n  src: url(\"/fonts/Cantarell-Regular.ttf\") format(\"truetype\"); }\n.table-column-first {\n  border-right: 1px solid;\n  color: #23c1e8; }\n  .table-column-first a:hover {\n    color: #23c1e8; }\n\n.twitch-link-cell {\n  background-color: #4b367c;\n  color: white; }\n  .twitch-link-cell a {\n    color: white; }\n\n.game-list-item {\n  color: #23c1e8;\n  cursor: pointer; }\n  .game-list-item a:hover {\n    color: #96d400; }\n", ""]);
 
 // exports
 
@@ -33776,7 +33776,7 @@ exports = module.exports = __webpack_require__(25)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\r\n  font-family: Furore;\r\n  src: url(\"/fonts/Furore.ttf\") format(\"truetype\"); }\r\n@font-face {\r\n  font-family: Cantarell;\r\n  src: url(\"/fonts/Cantarell-Regular.ttf\") format(\"truetype\"); }\r\n.table-column-first {\r\n  border-right: 1px solid;\r\n  color: #23c1e8; }\r\n  .table-column-first a:hover {\r\n    color: #23c1e8; }\r\n\r\n.twitch-link-cell {\r\n  background-color: #4b367c;\r\n  color: white; }\r\n  .twitch-link-cell a {\r\n    color: white; }\r\n\r\n.schedule {\r\n  text-align: left;\r\n  font-family: Furore; }\r\n\r\n.external-button-small {\r\n  text-align: center; }\r\n\r\nthead {\r\n  letter-spacing: 2px; }\r\n\r\nth span {\r\n  color: #23c1e8; }\r\n\r\nh2 {\r\n  text-align: center; }\r\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: Furore;\n  src: url(\"/fonts/Furore.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: Cantarell;\n  src: url(\"/fonts/Cantarell-Regular.ttf\") format(\"truetype\"); }\n.table-column-first {\n  border-right: 1px solid;\n  color: #23c1e8; }\n  .table-column-first a:hover {\n    color: #23c1e8; }\n\n.twitch-link-cell {\n  background-color: #4b367c;\n  color: white; }\n  .twitch-link-cell a {\n    color: white; }\n\n.schedule {\n  text-align: left;\n  font-family: Furore; }\n\n.external-button-small {\n  text-align: center; }\n\nthead {\n  letter-spacing: 2px; }\n\nth span {\n  color: #23c1e8; }\n\nh2 {\n  text-align: center; }\n", ""]);
 
 // exports
 
@@ -33790,7 +33790,7 @@ exports = module.exports = __webpack_require__(25)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\r\n  font-family: Furore;\r\n  src: url(\"/fonts/Furore.ttf\") format(\"truetype\"); }\r\n@font-face {\r\n  font-family: Cantarell;\r\n  src: url(\"/fonts/Cantarell-Regular.ttf\") format(\"truetype\"); }\r\n.table-column-first {\r\n  border-right: 1px solid;\r\n  color: #23c1e8; }\r\n  .table-column-first a:hover {\r\n    color: #23c1e8; }\r\n\r\n.twitch-link-cell {\r\n  background-color: #4b367c;\r\n  color: white; }\r\n  .twitch-link-cell a {\r\n    color: white; }\r\n\r\nbody {\r\n  background: url(\"/images/bluegridpattern-edit.png\") no-repeat fixed;\r\n  background-size: cover;\r\n  text-align: center;\r\n  color: white;\r\n  font-family: Cantarell; }\r\n\r\nh1, h2, h3, h4, h5 {\r\n  color: #23c1e8;\r\n  font-family: Furore; }\r\n\r\nhr {\r\n  border-bottom: 2px dashed #96d400; }\r\n\r\na {\r\n  color: #f28b20; }\r\n\r\na:hover, a:focus {\r\n  color: #96d400;\r\n  text-decoration: none; }\r\n\r\n.bg-dark-blue {\r\n  background-color: #1d4c6c; }\r\n\r\n.bg-light-blue {\r\n  background-color: #23c1e8; }\r\n\r\n.top-margin {\r\n  margin-top: 5em; }\r\n\r\n.bottom-margin {\r\n  margin-bottom: 5em; }\r\n\r\n.border-shadow {\r\n  box-shadow: 0px 0px 100px 0px #23c1e8;\r\n  border-radius: 1em;\r\n  background: black 1px 1px; }\r\n\r\n.content {\r\n  background-color: #1d4c6c; }\r\n\r\n.card {\r\n  margin: 0 10% .75em 10%;\r\n  background-color: #96d400; }\r\n\r\n.header {\r\n  padding-top: 1em; }\r\n\r\n.external-button-large {\r\n  padding: 5px; }\r\n  .external-button-large a {\r\n    color: #f28b20;\r\n    font-size: xx-large;\r\n    border: 5px solid #f28b20;\r\n    box-shadow: 5px 5px #96d400;\r\n    padding: 5px; }\r\n  .external-button-large a:hover {\r\n    color: #96d400;\r\n    box-shadow: 5px 5px #f28b20;\r\n    border-color: #96d400;\r\n    text-decoration: none; }\r\n  .external-button-large a:focus {\r\n    text-decoration: none; }\r\n  .external-button-large a:active {\r\n    color: #23c1e8;\r\n    border-color: #23c1e8; }\r\n\r\n.external-button-small {\r\n  padding: 5px; }\r\n  .external-button-small a {\r\n    color: #f28b20;\r\n    font-size: large;\r\n    border: 3px solid #f28b20;\r\n    box-shadow: 3px 3px #96d400;\r\n    padding: 3px; }\r\n  .external-button-small a:hover {\r\n    color: #96d400;\r\n    box-shadow: 3px 3px #f28b20;\r\n    border-color: #96d400;\r\n    text-decoration: none; }\r\n  .external-button-small a:focus {\r\n    text-decoration: none; }\r\n  .external-button-small a:active {\r\n    color: #23c1e8;\r\n    border-color: #23c1e8; }\r\n\r\n.text-center {\r\n  text-align: center; }\r\n\r\n.border {\r\n  border: 3px solid black; }\r\n\r\n.center {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-direction: column; }\r\n\r\n.flex {\r\n  display: flex; }\r\n\r\n.flex-card {\r\n  display: inline-flex;\r\n  flex-direction: column; }\r\n\r\n.row-flex {\r\n  display: inline-flex;\r\n  flex-direction: column; }\r\n\r\n.table tbody tr td:last-child {\r\n  border-right: 0; }\r\n\r\n.table tbody tr td:first-child {\r\n  border-left: 0; }\r\n\r\n.table tbody tr td,\r\n.table tbody tr th {\r\n  border-color: dimgray; }\r\n\r\n.table tbody tr td {\r\n  border-right-width: 1px;\r\n  border-right-style: solid;\r\n  vertical-align: middle; }\r\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: Furore;\n  src: url(\"/fonts/Furore.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: Cantarell;\n  src: url(\"/fonts/Cantarell-Regular.ttf\") format(\"truetype\"); }\n.table-column-first {\n  border-right: 1px solid;\n  color: #23c1e8; }\n  .table-column-first a:hover {\n    color: #23c1e8; }\n\n.twitch-link-cell {\n  background-color: #4b367c;\n  color: white; }\n  .twitch-link-cell a {\n    color: white; }\n\nbody {\n  background: url(\"/images/bluegridpattern-edit.png\") no-repeat fixed;\n  background-size: cover;\n  text-align: center;\n  color: white;\n  font-family: Cantarell; }\n\nh1, h2, h3, h4, h5 {\n  color: #23c1e8;\n  font-family: Furore; }\n\nhr {\n  border-bottom: 2px dashed #96d400; }\n\na {\n  color: #f28b20; }\n\na:hover, a:focus {\n  color: #96d400;\n  text-decoration: none; }\n\n.bg-dark-blue {\n  background-color: #1d4c6c; }\n\n.bg-light-blue {\n  background-color: #23c1e8; }\n\n.top-margin {\n  margin-top: 5em; }\n\n.bottom-margin {\n  margin-bottom: 5em; }\n\n.border-shadow {\n  box-shadow: 0px 0px 100px 0px #23c1e8;\n  border-radius: 1em;\n  background: black 1px 1px; }\n\n.content {\n  background-color: #1d4c6c; }\n\n.card {\n  margin: 0 10% .75em 10%;\n  background-color: #96d400; }\n\n.header {\n  padding-top: 1em; }\n\n.external-button-large {\n  padding: 5px; }\n  .external-button-large a {\n    color: #f28b20;\n    font-size: xx-large;\n    border: 5px solid #f28b20;\n    box-shadow: 5px 5px #96d400;\n    padding: 5px; }\n  .external-button-large a:hover {\n    color: #96d400;\n    box-shadow: 5px 5px #f28b20;\n    border-color: #96d400;\n    text-decoration: none; }\n  .external-button-large a:focus {\n    text-decoration: none; }\n  .external-button-large a:active {\n    color: #23c1e8;\n    border-color: #23c1e8; }\n\n.external-button-small {\n  padding: 5px; }\n  .external-button-small a {\n    color: #f28b20;\n    font-size: large;\n    border: 3px solid #f28b20;\n    box-shadow: 3px 3px #96d400;\n    padding: 3px; }\n  .external-button-small a:hover {\n    color: #96d400;\n    box-shadow: 3px 3px #f28b20;\n    border-color: #96d400;\n    text-decoration: none; }\n  .external-button-small a:focus {\n    text-decoration: none; }\n  .external-button-small a:active {\n    color: #23c1e8;\n    border-color: #23c1e8; }\n\n.text-center {\n  text-align: center; }\n\n.border {\n  border: 3px solid black; }\n\n.center {\n  display: flex;\n  justify-content: center;\n  flex-direction: column; }\n\n.flex {\n  display: flex; }\n\n.flex-card {\n  display: inline-flex;\n  flex-direction: column; }\n\n.row-flex {\n  display: inline-flex;\n  flex-direction: column; }\n\n.table tbody tr td:last-child {\n  border-right: 0; }\n\n.table tbody tr td:first-child {\n  border-left: 0; }\n\n.table tbody tr td,\n.table tbody tr th {\n  border-color: dimgray; }\n\n.table tbody tr td {\n  border-right-width: 1px;\n  border-right-style: solid;\n  vertical-align: middle; }\n", ""]);
 
 // exports
 
