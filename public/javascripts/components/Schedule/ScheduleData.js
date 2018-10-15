@@ -1,4 +1,124 @@
 const scheduledata = {
+  2018: {
+    max: {
+
+    },
+    andy: {
+
+    },
+    eric: {
+
+    },
+    ian: {
+
+    },
+  },
+  halloween2018: {
+    ryan: {
+      games: [
+        {
+          time: '8:00am',
+          name: 'TBD',
+        },
+        {
+          time: '9:00am',
+          name: 'TBD',
+        },
+        {
+          time: '10:00am',
+          name: 'TBD',
+        },
+        {
+          time: '11:00am',
+          name: 'TBD',
+        },
+        {
+          time: '12:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '1:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '2:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '3:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '4:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '5:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '6:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '7:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '8:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '9:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '10:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '11:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '12:00am',
+          name: 'TBD',
+        },
+        {
+          time: '1:00am',
+          name: 'TBD',
+        },
+        {
+          time: '1:00am (DST)',
+          name: 'TBD',
+        },
+        {
+          time: '2:00am',
+          name: 'TBD',
+        },
+        {
+          time: '3:00am',
+          name: 'TBD',
+        },
+        {
+          time: '4:00am',
+          name: 'TBD',
+        },
+        {
+          time: '5:00am',
+          name: 'TBD',
+        },
+        {
+          time: '6:00am',
+          name: 'TBD',
+        },
+        {
+          time: '7:00am',
+          name: 'TBD',
+        },
+      ],
+    },
+  },
   2017: {
     max: {
       games: [

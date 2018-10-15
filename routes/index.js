@@ -8,7 +8,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
 
   res.render('index', {
-    title: 'ExtraLife 2017',
+    title: 'ExtraLife 2018',
   });
 });
 
