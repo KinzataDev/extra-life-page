@@ -1,779 +1,526 @@
-const data = [
-  {
-    id: 1,
-    time: '8:00am',
-    items: [
-      {
-        id: 1,
-        name: 'Starbound',
-        link: 'https://playstarbound.com/',
-      },
-      {
-        id: 2,
-        name: 'Starbound',
-        link: 'https://playstarbound.com/',
-      },
-      {
-        id: 3,
-        name: 'Starbound',
-        link: 'https://playstarbound.com/',
-      },
-      {
-        id: 4,
-        name: 'Starbound',
-        link: 'https://playstarbound.com/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
+const scheduledata = {
+  2017: {
+    max: {
+      games: [
+        {
+          time: '8:00am',
+          name: 'Starbound',
+        },
+        {
+          time: '9:00am',
+          name: 'Starbound',
+        },
+        {
+          time: '10:00am',
+          name: 'Warhammer: End Times - Vermintide',
+        },
+        {
+          time: '11:00am',
+          name: 'Warhammer: End Times - Vermintide',
+        },
+        {
+          time: '12:00pm',
+          name: 'Throne of Lies',
+        },
+        {
+          time: '1:00pm',
+          name: 'Throne of Lies',
+        },
+        {
+          time: '2:00pm',
+          name: 'Tooth and Tail',
+        },
+        {
+          time: '3:00pm',
+          name: 'Offworld Trading Company',
+        },
+        {
+          time: '4:00pm',
+          name: 'Offworld Trading Company',
+        },
+        {
+          time: '5:00pm',
+          name: 'Cogmind',
+        },
+        {
+          time: '6:00pm',
+          name: 'Cogmind',
+        },
+        {
+          time: '7:00pm',
+          name: 'Killing Floor 2',
+        },
+        {
+          time: '8:00pm',
+          name: 'Killing Floor 2',
+        },
+        {
+          time: '9:00pm',
+          name: 'Company of Heroes 2',
+        },
+        {
+          time: '10:00pm',
+          name: 'Company of Heroes 2',
+        },
+        {
+          time: '11:00pm',
+          name: 'Rocket League',
+        },
+        {
+          time: '12:00am',
+          name: "Don't Starve",
+        },
+        {
+          time: '1:00am',
+          name: 'Diablo 3',
+        },
+        {
+          time: '1:00am (DST)',
+          name: 'Diablo 3',
+        },
+        {
+          time: '2:00am',
+          name: 'Rocket League',
+        },
+        {
+          time: '3:00am',
+          name: 'AI War',
+        },
+        {
+          time: '4:00am',
+          name: 'AI War',
+        },
+        {
+          time: '5:00am',
+          name: 'Kerbal Space Program',
+        },
+        {
+          time: '6:00am',
+          name: 'Kerbal Space Program',
+        },
+        {
+          time: '7:00am',
+          name: 'Kerbal Space Program',
+        },
+      ],
+    },
+    ryan: {
+      games: [
+        {
+          time: '8:00am',
+          name: 'Starbound',
+        },
+        {
+          time: '9:00am',
+          name: 'Starbound',
+        },
+        {
+          time: '10:00am',
+          name: 'Warhammer: End Times - Vermintide',
+        },
+        {
+          time: '11:00am',
+          name: 'Warhammer: End Times - Vermintide',
+        },
+        {
+          time: '12:00pm',
+          name: 'Dungeons of Dredmor',
+        },
+        {
+          time: '1:00pm',
+          name: 'FTL',
+        },
+        {
+          time: '2:00pm',
+          name: 'The Flame in the Flood',
+        },
+        {
+          time: '3:00pm',
+          name: 'Offworld Trading Company',
+        },
+        {
+          time: '4:00pm',
+          name: 'Offworld Trading Company',
+        },
+        {
+          time: '5:00pm',
+          name: 'Invisible Inc.',
+        },
+        {
+          time: '6:00pm',
+          name: 'Mark of the Ninja',
+        },
+        {
+          time: '7:00pm',
+          name: 'Killing Floor 2',
+        },
+        {
+          time: '8:00pm',
+          name: 'Killing Floor 2',
+        },
+        {
+          time: '9:00pm',
+          name: 'The Long Dark',
+        },
+        {
+          time: '10:00pm',
+          name: 'The Long Dark',
+        },
+        {
+          time: '11:00pm',
+          name: 'The Long Dark',
+        },
+        {
+          time: '12:00am',
+          name: "Don't Starve",
+        },
+        {
+          time: '1:00am',
+          name: 'Diablo 3',
+        },
+        {
+          time: '1:00am (DST)',
+          name: 'Diablo 3',
+        },
+        {
+          time: '2:00am',
+          name: 'D&D: Chronicles of Mystara',
+        },
+        {
+          time: '3:00am',
+          name: 'Dungeon of the Endless',
+        },
+        {
+          time: '4:00am',
+          name: 'VVVVVV',
+        },
+        {
+          time: '5:00am',
+          name: 'Legend of Grimrock',
+        },
+        {
+          time: '6:00am',
+          name: 'Legend of Grimrock',
+        },
+        {
+          time: '7:00am',
+          name: 'Legend of Grimrock',
+        },
+      ],
+    },
+    andy: {
+      games: [
+        {
+          time: '8:00am',
+          name: 'Starbound',
+        },
+        {
+          time: '9:00am',
+          name: 'Starbound',
+        },
+        {
+          time: '10:00am',
+          name: 'Warhammer: End Times - Vermintide',
+        },
+        {
+          time: '11:00am',
+          name: 'Warhammer: End Times - Vermintide',
+        },
+        {
+          time: '12:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '1:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '2:00pm',
+          name: 'Tooth and Tail',
+        },
+        {
+          time: '3:00pm',
+          name: 'Offworld Trading Company',
+        },
+        {
+          time: '4:00pm',
+          name: 'Offworld Trading Company',
+        },
+        {
+          time: '5:00pm',
+          name: 'FTL',
+        },
+        {
+          time: '6:00pm',
+          name: 'FTL',
+        },
+        {
+          time: '7:00pm',
+          name: 'Killing Floor 2',
+        },
+        {
+          time: '8:00pm',
+          name: 'Killing Floor 2',
+        },
+        {
+          time: '9:00pm',
+          name: 'Company of Heroes 2',
+        },
+        {
+          time: '10:00pm',
+          name: 'Company of Heroes 2',
+        },
+        {
+          time: '11:00pm',
+          name: "Five Nights at Freddy's 2",
+        },
+        {
+          time: '12:00am',
+          name: "Five Nights at Freddy's 2",
+        },
+        {
+          time: '1:00am',
+          name: 'War for the Overworld',
+        },
+        {
+          time: '1:00am (DST)',
+          name: 'TBD',
+        },
+        {
+          time: '2:00am',
+          name: 'TBD',
+        },
+        {
+          time: '3:00am',
+          name: 'TBD',
+        },
+        {
+          time: '4:00am',
+          name: 'TBD',
+        },
+        {
+          time: '5:00am',
+          name: 'TBD',
+        },
+        {
+          time: '6:00am',
+          name: 'TBD',
+        },
+        {
+          time: '7:00am',
+          name: 'TBD',
+        },
+      ],
+    },
+    darrell: {
+      games: [
+        {
+          time: '8:00am',
+          name: 'Starbound',
+        },
+        {
+          time: '9:00am',
+          name: 'Starbound',
+        },
+        {
+          time: '10:00am',
+          name: 'Warhammer: End Times - Vermintide',
+        },
+        {
+          time: '11:00am',
+          name: 'Warhammer: End Times - Vermintide',
+        },
+        {
+          time: '12:00pm',
+          name: 'Horizon: Zero Dawn',
+        },
+        {
+          time: '1:00pm',
+          name: 'Overwatch',
+        },
+        {
+          time: '2:00pm',
+          name: 'Overwatch',
+        },
+        {
+          time: '3:00pm',
+          name: 'Overwatch',
+        },
+        {
+          time: '4:00pm',
+          name: 'Overwatch',
+        },
+        {
+          time: '5:00pm',
+          name: 'Doom',
+        },
+        {
+          time: '6:00pm',
+          name: 'Doom',
+        },
+        {
+          time: '7:00pm',
+          name: 'Killing Floor 2',
+        },
+        {
+          time: '8:00pm',
+          name: 'Killing Floor 2',
+        },
+        {
+          time: '9:00pm',
+          name: 'Armello',
+        },
+        {
+          time: '10:00pm',
+          name: 'Armello',
+        },
+        {
+          time: '11:00pm',
+          name: 'Doom',
+        },
+        {
+          time: '12:00am',
+          name: 'Doom',
+        },
+        {
+          time: '1:00am',
+          name: 'Wolf Among Us',
+        },
+        {
+          time: '1:00am (DST)',
+          name: 'Wolf Among Us',
+        },
+        {
+          time: '2:00am',
+          name: 'Wolf Among Us',
+        },
+        {
+          time: '3:00am',
+          name: 'Wolf Among Us',
+        },
+        {
+          time: '4:00am',
+          name: 'Alan Wake',
+        },
+        {
+          time: '5:00am',
+          name: 'Alan Wake',
+        },
+        {
+          time: '6:00am',
+          name: 'Alan Wake',
+        },
+        {
+          time: '7:00am',
+          name: 'Alan Wake',
+        },
+      ],
+    },
+    eric: {
+      games: [
+        {
+          time: '8:00am',
+          name: 'N/A',
+        },
+        {
+          time: '9:00am',
+          name: 'N/A',
+        },
+        {
+          time: '10:00am',
+          name: 'N/A',
+        },
+        {
+          time: '11:00am',
+          name: 'N/A',
+        },
+        {
+          time: '12:00pm',
+          name: 'N/A',
+        },
+        {
+          time: '1:00pm',
+          name: 'N/A',
+        },
+        {
+          time: '2:00pm',
+          name: 'N/A',
+        },
+        {
+          time: '3:00pm',
+          name: 'N/A',
+        },
+        {
+          time: '4:00pm',
+          name: 'N/A',
+        },
+        {
+          time: '5:00pm',
+          name: 'N/A',
+        },
+        {
+          time: '6:00pm',
+          name: 'N/A',
+        },
+        {
+          time: '7:00pm',
+          name: 'N/A',
+        },
+        {
+          time: '8:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '9:00pm',
+          name: 'Heroes of the Storm',
+        },
+        {
+          time: '10:00pm',
+          name: 'Dust: An Elysian Tail',
+        },
+        {
+          time: '11:00pm',
+          name: 'Dust: An Elysian Tail',
+        },
+        {
+          time: '12:00am',
+          name: "Don't Starve",
+        },
+        {
+          time: '1:00am',
+          name: 'Diablo 3',
+        },
+        {
+          time: '1:00am (DST)',
+          name: 'Diablo 3',
+        },
+        {
+          time: '2:00am',
+          name: 'D&D: Chronicles of Mystara',
+        },
+        {
+          time: '3:00am',
+          name: 'TBD',
+        },
+        {
+          time: '4:00am',
+          name: 'TBD',
+        },
+        {
+          time: '5:00am',
+          name: 'TBD',
+        },
+        {
+          time: '6:00am',
+          name: 'TBD',
+        },
+        {
+          time: '7:00am',
+          name: 'TBD',
+        },
+      ],
+    },
   },
-  {
-    id: 2,
-    time: '9:00am',
-    items: [
-      {
-        id: 1,
-        name: 'Starbound',
-        link: 'https://playstarbound.com/',
-      },
-      {
-        id: 2,
-        name: 'Starbound',
-        link: 'https://playstarbound.com/',
-      },
-      {
-        id: 3,
-        name: 'Starbound',
-        link: 'https://playstarbound.com/',
-      },
-      {
-        id: 4,
-        name: 'Starbound',
-        link: 'https://playstarbound.com/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 3,
-    time: '10:00am',
-    items: [
-      {
-        id: 1,
-        name: 'Warhammer: End Times - Vermintide',
-        link: 'http://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/',
-      },
-      {
-        id: 2,
-        name: 'Warhammer: End Times - Vermintide',
-        link: 'http://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/',
-      },
-      {
-        id: 3,
-        name: 'Warhammer: End Times - Vermintide',
-        link: 'http://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/',
-      },
-      {
-        id: 4,
-        name: 'Warhammer: End Times - Vermintide',
-        link: 'http://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 4,
-    time: '11:00am',
-    items: [
-      {
-        id: 1,
-        name: 'Warhammer: End Times - Vermintide',
-        link: 'http://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/',
-      },
-      {
-        id: 2,
-        name: 'Warhammer: End Times - Vermintide',
-        link: 'http://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/',
-      },
-      {
-        id: 3,
-        name: 'Warhammer: End Times - Vermintide',
-        link: 'http://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/',
-      },
-      {
-        id: 4,
-        name: 'Warhammer: End Times - Vermintide',
-        link: 'http://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 5,
-    time: '12:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Throne of Lies',
-        link: 'https://www.throneoflies.com/',
-      },
-      {
-        id: 2,
-        name: 'Dungeons of Dredmor',
-        link: 'https://dungeonsofdredmor.com/',
-      },
-      {
-        id: 3,
-        name: 'TBD',
-        link: '',
-      },
-      {
-        id: 4,
-        name: 'Horizon: Zero Dawn',
-        link: 'https://www.playstation.com/en-us/games/horizon-zero-dawn-ps4/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 6,
-    time: '1:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Throne of Lies',
-        link: 'https://www.throneoflies.com/',
-      },
-      {
-        id: 2,
-        name: 'FTL',
-        link: 'https://subsetgames.com/ftl.html',
-      },
-      {
-        id: 3,
-        name: 'TBD',
-        link: '',
-      },
-      {
-        id: 4,
-        name: 'Overwatch',
-        link: 'https://playoverwatch.com/en-us/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 7,
-    time: '2:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Tooth and Tail',
-        link: 'http://www.toothandtailgame.com/',
-      },
-      {
-        id: 2,
-        name: 'The Flame in the Flood',
-        link: 'http://www.themolassesflood.com/',
-      },
-      {
-        id: 3,
-        name: 'Tooth and Tail',
-        link: 'http://www.toothandtailgame.com/',
-      },
-      {
-        id: 4,
-        name: 'Overwatch',
-        link: 'https://playoverwatch.com/en-us/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 8,
-    time: '3:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Offworld Trading Company',
-        link: 'http://www.offworldgame.com/',
-      },
-      {
-        id: 2,
-        name: 'Offworld Trading Company',
-        link: 'http://www.offworldgame.com/',
-      },
-      {
-        id: 3,
-        name: 'Offworld Trading Company',
-        link: 'http://www.offworldgame.com/',
-      },
-      {
-        id: 4,
-        name: 'Overwatch',
-        link: 'https://playoverwatch.com/en-us/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 9,
-    time: '4:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Offworld Trading Company',
-        link: 'http://www.offworldgame.com/',
-      },
-      {
-        id: 2,
-        name: 'Offworld Trading Company',
-        link: 'http://www.offworldgame.com/',
-      },
-      {
-        id: 3,
-        name: 'Offworld Trading Company',
-        link: 'http://www.offworldgame.com/',
-      },
-      {
-        id: 4,
-        name: 'Overwatch',
-        link: 'https://playoverwatch.com/en-us/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 10,
-    time: '5:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Cogmind',
-        link: 'http://www.gridsagegames.com/cogmind/',
-      },
-      {
-        id: 2,
-        name: 'Invisible Inc.',
-        link: 'https://www.klei.com/games/invisible-inc',
-      },
-      {
-        id: 3,
-        name: 'FTL',
-        link: 'https://subsetgames.com/ftl.html',
-      },
-      {
-        id: 4,
-        name: 'Doom',
-        link: 'https://doom.com/en-us/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 11,
-    time: '6:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Cogmind',
-        link: 'http://www.gridsagegames.com/cogmind/',
-      },
-      {
-        id: 2,
-        name: 'Mark of the Ninja',
-        link: 'https://www.klei.com/games/mark-ninja',
-      },
-      {
-        id: 3,
-        name: 'FTL',
-        link: 'https://subsetgames.com/ftl.html',
-      },
-      {
-        id: 4,
-        name: 'Doom',
-        link: 'https://doom.com/en-us/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 12,
-    time: '7:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Killing Floor 2',
-        link: 'http://www.killingfloor2.com/',
-      },
-      {
-        id: 2,
-        name: 'Killing Floor 2',
-        link: 'http://www.killingfloor2.com/',
-      },
-      {
-        id: 3,
-        name: 'Killing Floor 2',
-        link: 'http://www.killingfloor2.com/',
-      },
-      {
-        id: 4,
-        name: 'Killing Floor 2',
-        link: 'http://www.killingfloor2.com/',
-      },
-      {
-        id: 5,
-        name: 'N/A',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 13,
-    time: '8:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Killing Floor 2',
-        link: 'http://www.killingfloor2.com/',
-      },
-      {
-        id: 2,
-        name: 'Killing Floor 2',
-        link: 'http://www.killingfloor2.com/',
-      },
-      {
-        id: 3,
-        name: 'Killing Floor 2',
-        link: 'http://www.killingfloor2.com/',
-      },
-      {
-        id: 4,
-        name: 'Killing Floor 2',
-        link: 'http://www.killingfloor2.com/',
-      },
-      {
-        id: 5,
-        name: 'Eric Arrives',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 14,
-    time: '9:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Company of Heroes 2',
-        link: 'http://www.companyofheroes.com/games/company-of-heroes-2',
-      },
-      {
-        id: 2,
-        name: 'The Long Dark',
-        link: 'http://www.thelongdark.com/',
-      },
-      {
-        id: 3,
-        name: 'Company of Heroes 2',
-        link: 'http://www.companyofheroes.com/games/company-of-heroes-2',
-      },
-      {
-        id: 4,
-        name: 'Armello',
-        link: 'http://armello.com/',
-      },
-      {
-        id: 5,
-        name: 'Heroes of the Storm',
-        link: 'http://us.battle.net/heroes/en/',
-      },
-    ],
-  },
-  {
-    id: 15,
-    time: '10:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Company of Heroes 2',
-        link: 'http://www.companyofheroes.com/games/company-of-heroes-2',
-      },
-      {
-        id: 2,
-        name: 'The Long Dark',
-        link: 'http://www.thelongdark.com/',
-      },
-      {
-        id: 3,
-        name: 'Company of Heroes 2',
-        link: 'http://www.companyofheroes.com/games/company-of-heroes-2',
-      },
-      {
-        id: 4,
-        name: 'Armello',
-        link: 'http://armello.com/',
-      },
-      {
-        id: 5,
-        name: 'Dust: An Elysian Tail',
-        link: 'http://store.steampowered.com/app/236090/Dust_An_Elysian_Tail/',
-      },
-    ],
-  },
-  {
-    id: 16,
-    time: '11:00pm',
-    items: [
-      {
-        id: 1,
-        name: 'Rocket League',
-        link: 'https://www.rocketleague.com/',
-      },
-      {
-        id: 2,
-        name: 'The Long Dark',
-        link: 'http://www.thelongdark.com/',
-      },
-      {
-        id: 3,
-        name: "Five Nights at Freddy's 2",
-        link: 'http://store.steampowered.com/app/332800/Five_Nights_at_Freddys_2/',
-      },
-      {
-        id: 4,
-        name: 'Doom',
-        link: 'https://doom.com/en-us/',
-      },
-      {
-        id: 5,
-        name: 'Dust: An Elysian Tail',
-        link: 'http://store.steampowered.com/app/236090/Dust_An_Elysian_Tail/',
-      },
-    ],
-  },
-  {
-    id: 17,
-    time: '12:00am',
-    items: [
-      {
-        id: 1,
-        name: 'Don‘t Starve',
-        link: 'https://www.klei.com/games/dont-starve-together',
-      },
-      {
-        id: 2,
-        name: 'Don‘t Starve',
-        link: 'https://www.klei.com/games/dont-starve-together',
-      },
-      {
-        id: 3,
-        name: "Five Nights at Freddy's 2",
-        link: 'http://store.steampowered.com/app/332800/Five_Nights_at_Freddys_2/',
-      },
-      {
-        id: 4,
-        name: 'Doom',
-        link: 'https://doom.com/en-us/',
-      },
-      {
-        id: 5,
-        name: 'Don‘t Starve',
-        link: 'https://www.klei.com/games/dont-starve-together',
-      },
-    ],
-  },
-  {
-    id: 18,
-    time: '1:00am',
-    items: [
-      {
-        id: 1,
-        name: 'Diablo 3',
-        link: 'https://us.battle.net/d3/en/',
-      },
-      {
-        id: 2,
-        name: 'Diablo 3',
-        link: 'https://us.battle.net/d3/en/',
-      },
-      {
-        id: 3,
-        name: 'War for the Overworld',
-        link: 'http://store.steampowered.com/app/230190/War_for_the_Overworld/',
-      },
-      {
-        id: 4,
-        name: 'Wolf Among Us',
-        link: 'https://telltale.com/series/the-wolf-among-us/',
-      },
-      {
-        id: 5,
-        name: 'Diablo 3',
-        link: 'https://us.battle.net/d3/en/',
-      },
-    ],
-  },
-  {
-    id: 19,
-    time: '1:00am',
-    items: [
-      {
-        id: 1,
-        name: 'Diablo 3',
-        link: 'https://us.battle.net/d3/en/',
-      },
-      {
-        id: 2,
-        name: 'Diablo 3',
-        link: 'https://us.battle.net/d3/en/',
-      },
-      {
-        id: 3,
-        name: 'TBD',
-        link: '',
-      },
-      {
-        id: 4,
-        name: 'Wolf Among Us',
-        link: 'https://telltale.com/series/the-wolf-among-us/',
-      },
-      {
-        id: 5,
-        name: 'Diablo 3',
-        link: 'https://us.battle.net/d3/en/',
-      },
-    ],
-  },
-  {
-    id: 20,
-    time: '2:00am',
-    items: [
-      {
-        id: 1,
-        name: 'Rocket League',
-        link: 'https://www.rocketleague.com/',
-      },
-      {
-        id: 2,
-        name: 'D&D: Chronicles of Mystara',
-        link: 'http://store.steampowered.com/app/229480/Dungeons__Dragons_Chronicles_of_Mystara/',
-      },
-      {
-        id: 3,
-        name: 'TBD',
-        link: '',
-      },
-      {
-        id: 4,
-        name: 'Wolf Among Us',
-        link: 'https://telltale.com/series/the-wolf-among-us/',
-      },
-      {
-        id: 5,
-        name: 'D&D: Chronicles of Mystara',
-        link: 'http://store.steampowered.com/app/229480/Dungeons__Dragons_Chronicles_of_Mystara/',
-      },
-    ],
-  },
-  {
-    id: 21,
-    time: '3:00am',
-    items: [
-      {
-        id: 1,
-        name: 'AI War',
-        link: 'http://arcengames.com/ai-war/',
-      },
-      {
-        id: 2,
-        name: 'Dungeon of the Endless',
-        link: 'http://store.steampowered.com/app/249050/Dungeon_of_the_Endless/',
-      },
-      {
-        id: 3,
-        name: 'TBD',
-        link: '',
-      },
-      {
-        id: 4,
-        name: 'Wolf Among Us',
-        link: 'https://telltale.com/series/the-wolf-among-us/',
-      },
-      {
-        id: 5,
-        name: 'TBD',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 22,
-    time: '4:00am',
-    items: [
-      {
-        id: 1,
-        name: 'AI War',
-        link: 'http://arcengames.com/ai-war/',
-      },
-      {
-        id: 2,
-        name: 'VVVVVV',
-        link: 'http://thelettervsixtim.es/',
-      },
-      {
-        id: 3,
-        name: 'TBD',
-        link: '',
-      },
-      {
-        id: 4,
-        name: 'Alan Wake',
-        link: 'http://www.alanwake.com/',
-      },
-      {
-        id: 5,
-        name: 'TBD',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 23,
-    time: '5:00am',
-    items: [
-      {
-        id: 1,
-        name: 'Kerbal Space Program',
-        link: 'https://kerbalspaceprogram.com/en/',
-      },
-      {
-        id: 2,
-        name: 'Legend of Grimrock',
-        link: 'http://www.grimrock.net/',
-      },
-      {
-        id: 3,
-        name: 'TBD',
-        link: '',
-      },
-      {
-        id: 4,
-        name: 'Alan Wake',
-        link: 'http://www.alanwake.com/',
-      },
-      {
-        id: 5,
-        name: 'TBD',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 24,
-    time: '6:00am',
-    items: [
-      {
-        id: 1,
-        name: 'Kerbal Space Program',
-        link: 'https://kerbalspaceprogram.com/en/',
-      },
-      {
-        id: 2,
-        name: 'Legend of Grimrock',
-        link: 'http://www.grimrock.net/',
-      },
-      {
-        id: 3,
-        name: 'TBD',
-        link: '',
-      },
-      {
-        id: 4,
-        name: 'Alan Wake',
-        link: 'http://www.alanwake.com/',
-      },
-      {
-        id: 5,
-        name: 'TBD',
-        link: '',
-      },
-    ],
-  },
-  {
-    id: 25,
-    time: '7:00am',
-    items: [
-      {
-        id: 1,
-        name: 'Kerbal Space Program',
-        link: 'https://kerbalspaceprogram.com/en/',
-      },
-      {
-        id: 2,
-        name: 'Legend of Grimrock',
-        link: 'http://www.grimrock.net/',
-      },
-      {
-        id: 3,
-        name: 'TBD',
-        link: '',
-      },
-      {
-        id: 4,
-        name: 'Alan Wake',
-        link: 'http://www.alanwake.com/',
-      },
-      {
-        id: 5,
-        name: 'TBD',
-        link: '',
-      },
-    ],
-  },
-];
+};
 
-export default data;
+export default scheduledata;
