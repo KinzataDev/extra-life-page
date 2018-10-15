@@ -62,7 +62,7 @@ export default class Donate extends React.Component {
             <div className="row">
               <div className="card">
                 <div className="card-block">
-                  <p className="card-text">For 2017 we’ve raised: ${this.state.donationAmount}</p>
+                  <p className="card-text">For 2018 we’ve raised: ${this.state.donationAmount}</p>
                 </div>
               </div>
               <div className="card">
