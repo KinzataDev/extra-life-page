@@ -1,16 +1,426 @@
 const scheduledata = {
   2018: {
     max: {
-
+      games: [
+        {
+          time: '8:00am',
+          name: 'TBD',
+        },
+        {
+          time: '9:00am',
+          name: 'TBD',
+        },
+        {
+          time: '10:00am',
+          name: 'TBD',
+        },
+        {
+          time: '11:00am',
+          name: 'TBD',
+        },
+        {
+          time: '12:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '1:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '2:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '3:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '4:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '5:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '6:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '7:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '8:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '9:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '10:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '11:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '12:00am',
+          name: 'TBD',
+        },
+        {
+          time: '1:00am',
+          name: 'TBD',
+        },
+        {
+          time: '1:00am (DST)',
+          name: 'TBD',
+        },
+        {
+          time: '2:00am',
+          name: 'TBD',
+        },
+        {
+          time: '3:00am',
+          name: 'TBD',
+        },
+        {
+          time: '4:00am',
+          name: 'TBD',
+        },
+        {
+          time: '5:00am',
+          name: 'TBD',
+        },
+        {
+          time: '6:00am',
+          name: 'TBD',
+        },
+        {
+          time: '7:00am',
+          name: 'TBD',
+        },
+      ],
     },
     andy: {
-
+      games: [
+        {
+          time: '8:00am',
+          name: 'TBD',
+        },
+        {
+          time: '9:00am',
+          name: 'TBD',
+        },
+        {
+          time: '10:00am',
+          name: 'TBD',
+        },
+        {
+          time: '11:00am',
+          name: 'TBD',
+        },
+        {
+          time: '12:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '1:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '2:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '3:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '4:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '5:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '6:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '7:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '8:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '9:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '10:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '11:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '12:00am',
+          name: 'TBD',
+        },
+        {
+          time: '1:00am',
+          name: 'TBD',
+        },
+        {
+          time: '1:00am (DST)',
+          name: 'TBD',
+        },
+        {
+          time: '2:00am',
+          name: 'TBD',
+        },
+        {
+          time: '3:00am',
+          name: 'TBD',
+        },
+        {
+          time: '4:00am',
+          name: 'TBD',
+        },
+        {
+          time: '5:00am',
+          name: 'TBD',
+        },
+        {
+          time: '6:00am',
+          name: 'TBD',
+        },
+        {
+          time: '7:00am',
+          name: 'TBD',
+        },
+      ],
     },
     eric: {
-
+      games: [
+        {
+          time: '8:00am',
+          name: 'TBD',
+        },
+        {
+          time: '9:00am',
+          name: 'TBD',
+        },
+        {
+          time: '10:00am',
+          name: 'TBD',
+        },
+        {
+          time: '11:00am',
+          name: 'TBD',
+        },
+        {
+          time: '12:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '1:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '2:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '3:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '4:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '5:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '6:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '7:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '8:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '9:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '10:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '11:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '12:00am',
+          name: 'TBD',
+        },
+        {
+          time: '1:00am',
+          name: 'TBD',
+        },
+        {
+          time: '1:00am (DST)',
+          name: 'TBD',
+        },
+        {
+          time: '2:00am',
+          name: 'TBD',
+        },
+        {
+          time: '3:00am',
+          name: 'TBD',
+        },
+        {
+          time: '4:00am',
+          name: 'TBD',
+        },
+        {
+          time: '5:00am',
+          name: 'TBD',
+        },
+        {
+          time: '6:00am',
+          name: 'TBD',
+        },
+        {
+          time: '7:00am',
+          name: 'TBD',
+        },
+      ],
     },
     ian: {
-
+      games: [
+        {
+          time: '8:00am',
+          name: 'TBD',
+        },
+        {
+          time: '9:00am',
+          name: 'TBD',
+        },
+        {
+          time: '10:00am',
+          name: 'TBD',
+        },
+        {
+          time: '11:00am',
+          name: 'TBD',
+        },
+        {
+          time: '12:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '1:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '2:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '3:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '4:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '5:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '6:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '7:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '8:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '9:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '10:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '11:00pm',
+          name: 'TBD',
+        },
+        {
+          time: '12:00am',
+          name: 'TBD',
+        },
+        {
+          time: '1:00am',
+          name: 'TBD',
+        },
+        {
+          time: '1:00am (DST)',
+          name: 'TBD',
+        },
+        {
+          time: '2:00am',
+          name: 'TBD',
+        },
+        {
+          time: '3:00am',
+          name: 'TBD',
+        },
+        {
+          time: '4:00am',
+          name: 'TBD',
+        },
+        {
+          time: '5:00am',
+          name: 'TBD',
+        },
+        {
+          time: '6:00am',
+          name: 'TBD',
+        },
+        {
+          time: '7:00am',
+          name: 'TBD',
+        },
+      ],
+    },
+    ryan: {
+      games: [
+        {
+        },
+      ],
     },
   },
   halloween2018: {
@@ -89,7 +499,39 @@ const scheduledata = {
           name: 'TBD',
         },
         {
-          time: '1:00am (DST)',
+          time: '2:00am',
+          name: 'TBD',
+        },
+        {
+          time: '3:00am',
+          name: 'TBD',
+        },
+        {
+          time: '4:00am',
+          name: 'TBD',
+        },
+        {
+          time: '5:00am',
+          name: 'TBD',
+        },
+        {
+          time: '6:00am',
+          name: 'TBD',
+        },
+        {
+          time: '7:00am',
+          name: 'TBD',
+        },
+      ],
+    },
+    eric: {
+      games: [
+        {
+          time: '12:00am',
+          name: 'TBD',
+        },
+        {
+          time: '1:00am',
           name: 'TBD',
         },
         {

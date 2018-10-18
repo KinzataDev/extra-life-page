@@ -1,5 +1,9 @@
 const gamedata = [
   {
+    name: '',
+    link: '',
+  },
+  {
     name: 'N/A',
     link: '',
   },

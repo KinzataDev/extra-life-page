@@ -14,12 +14,23 @@ export default class Schedule extends React.Component {
   }
 
   render() {
-    const schedule2017 = scheduledata['2017'];
-    const users2017 = userdata.filter(row => schedule2017[row.id] != null);
+    const schedule = scheduledata.halloween2018;
+    const unsortedUsers = userdata.filter(row => schedule[row.id] != null);
+    const users = [];
 
+    // Sort users by schedule order
+    Object.keys(schedule).forEach((key) => {
+      unsortedUsers.forEach((user) => {
+        if (key === user.id) {
+          users.push(user);
+        }
+      });
+    });
+
+    // Convert data to table rows
     const allGames = [];
-    users2017.forEach((user) => {
-      const games = schedule2017[user.id].games;
+    users.forEach((user) => {
+      const games = schedule[user.id].games;
 
       games.forEach((game) => {
         let timeIndex = -1;
@@ -53,6 +64,25 @@ export default class Schedule extends React.Component {
       });
     });
 
+    // Handle empty time slots
+    const numUsers = users.length;
+    allGames.forEach((item) => {
+      const itemLength = item.users.length;
+      if (itemLength < numUsers) {        
+        for (let i = 0; i < numUsers; i += 1) {
+          const user = users[i];
+          const itemUser = item.users[i];
+          if (!itemUser || user.id !== itemUser.id) {
+            item.users.splice(i, 0, {
+              id: user.id,
+              name: '',
+              link: '',
+            });
+          }
+        }
+      }
+    });
+
     return (
       <div className="schedule">
         <div className="col-xs-12">
@@ -66,7 +96,7 @@ export default class Schedule extends React.Component {
               <tr>
                 <th>Time Played</th>
                 {
-                  users2017.map(row => (
+                  users.map(row => (
                     <th key={row.name}>
                       <span>{row.name}</span>
                     </th>
@@ -80,7 +110,7 @@ export default class Schedule extends React.Component {
                   Twitch Link
                 </td>
                 {
-                  users2017.map(row => (
+                  users.map(row => (
                     <td className="twitch-link-cell" key={row.name}>
                       <a href={row.twitch}>Watch Me</a>
                     </td>
