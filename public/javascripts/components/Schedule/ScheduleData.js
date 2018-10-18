@@ -981,54 +981,6 @@ const scheduledata = {
     eric: {
       games: [
         {
-          time: '8:00am',
-          name: 'N/A',
-        },
-        {
-          time: '9:00am',
-          name: 'N/A',
-        },
-        {
-          time: '10:00am',
-          name: 'N/A',
-        },
-        {
-          time: '11:00am',
-          name: 'N/A',
-        },
-        {
-          time: '12:00pm',
-          name: 'N/A',
-        },
-        {
-          time: '1:00pm',
-          name: 'N/A',
-        },
-        {
-          time: '2:00pm',
-          name: 'N/A',
-        },
-        {
-          time: '3:00pm',
-          name: 'N/A',
-        },
-        {
-          time: '4:00pm',
-          name: 'N/A',
-        },
-        {
-          time: '5:00pm',
-          name: 'N/A',
-        },
-        {
-          time: '6:00pm',
-          name: 'N/A',
-        },
-        {
-          time: '7:00pm',
-          name: 'N/A',
-        },
-        {
           time: '8:00pm',
           name: 'TBD',
         },
