@@ -18,7 +18,7 @@ export default class Donate extends React.Component {
 
   getDonationAmount() {
     $.ajax({
-      url: 'https://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&teamID=36868&format=json',
+      url: 'https://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&teamID=39395&format=json',
       dataType: 'json',
       type: 'GET',
       success: function (data) {
@@ -54,7 +54,7 @@ export default class Donate extends React.Component {
           </div>
           <div className="col-xs-4 center hide-on-small contract-on-small external-button-large">
             <div className="row">
-              <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=36868">
+              <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=39395">
                 DONATE HERE</a>
             </div>
           </div>
