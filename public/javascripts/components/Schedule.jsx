@@ -12,13 +12,6 @@ export default class Schedule extends React.Component {
 
     this.state = {
     };
-
-  }
-
-  updateTabs() {
-    // TODO: Fix and do something
-
-    return false;
   }
 
   render() {
@@ -116,11 +109,11 @@ export default class Schedule extends React.Component {
 
 
           <div className="tabs">
-            <a href="#halloween2018" className="tab" onClick="updateTabs()">
+            <a href="#halloween2018" className="tab">
               Oct 27th (Halloween Special)
             </a>
             <span> | </span>
-            <a href="#main2018" className="tab" onClick="updateTabs()">
+            <a href="#main2018" className="tab">
               Nov 3rd (Main Event)
             </a>
           </div>

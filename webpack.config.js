@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = [{
   context: path.join(__dirname, 'public', 'javascripts'),
-  entry: './app.js',
+  entry: ['babel-polyfill', './app.js'],
   output: {
     path: path.join(__dirname, 'public', 'javascripts'),
     filename: 'bundle.js',
@@ -20,5 +20,10 @@ module.exports = [{
   resolve: {
     // you can now require('file') instead of require('file.coffee')
     extensions: ['.js', '.jsx'],
+  },
+  node: {
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty',
   },
 }];

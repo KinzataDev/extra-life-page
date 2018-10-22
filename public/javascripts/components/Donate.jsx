@@ -1,4 +1,5 @@
 import React from 'react';
+import { getTeamInfo } from 'extra-life-api';
 import './Donate.css';
 
 const $ = require('jquery');
@@ -17,17 +18,13 @@ export default class Donate extends React.Component {
   }
 
   getDonationAmount() {
-    $.ajax({
-      url: 'https://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&teamID=39395&format=json',
-      dataType: 'json',
-      type: 'GET',
-      success: function (data) {
-        this.setState({ donationAmount: data.totalRaisedAmount });
-      }.bind(this),
-      error(xhr, status, err) {
-        console.log(err);
-      },
-    });
+    getTeamInfo(39395)
+      .then((data) => {
+        this.setState({ donationAmount: data.sumDonations });
+      })
+      .catch(() => {
+        // console.log(e);
+      });
   }
 
   render() {
