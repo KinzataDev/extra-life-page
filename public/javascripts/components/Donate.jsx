@@ -34,7 +34,7 @@ export default class Donate extends React.Component {
     return (
       <div className="donate">
         <div className="row show-on-small external-button-large">
-          <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=36868">
+          <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=39395">
             DONATE HERE</a>
         </div>
         <div className="row flex">
@@ -42,12 +42,12 @@ export default class Donate extends React.Component {
             <div className="row">
               <div className="card">
                 <div className="card-block">
-                  <p className="card-text">Last year we raised $1,000</p>
+                  <p className="card-text">Last year we raised $1,825</p>
                 </div>
               </div>
               <div className="card">
                 <div className="card-block">
-                  <p className="card-text">Extra Life raised $9.6 million in 2016</p>
+                  <p className="card-text">Extra Life raised $11.1 million in 2017</p>
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@ export default class Donate extends React.Component {
               </div>
               <div className="card">
                 <div className="card-block">
-                  <p className="card-text">Extra Life has raised more than $30 million since 2008</p>
+                  <p className="card-text">Extra Life has raised more than $40 million since 2008</p>
                 </div>
               </div>
             </div>
