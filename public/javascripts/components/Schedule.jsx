@@ -1,4 +1,5 @@
 import React from 'react';
+import {Tabs, Tab} from 'react-bootstrap';
 import GameListRow from './GameListRow';
 import './Schedule.css';
 
@@ -107,93 +108,86 @@ export default class Schedule extends React.Component {
               Watch us live on Multi-Twitch here </a>
           </div>
 
-
-          <div className="tabs">
-            <a href="#halloween2018" className="tab">
-              Oct 27th (Halloween Special)
-            </a>
-            <span> | </span>
-            <a href="#main2018" className="tab">
-              Nov 3rd (Main Event)
-            </a>
-          </div>
-
-          <table id="halloween2018" className="table table-hover">
-            <thead>
-              <tr>
-                <th>Time Played</th>
+          <Tabs defaultActiveKey={1}>
+            <Tab eventKey={1} title="Oct 27th (Halloween Special)">
+              <table id="halloween2018" className="table table-hover">
+              <thead>
+                <tr>
+                  <th>Time Played</th>
+                  {
+                    usersHalloween.map(row => (
+                      <th key={row.name}>
+                        <span>{row.name}</span>
+                      </th>
+                    ))
+                  }
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="table-column-first twitch-link-cell">
+                    Twitch Link
+                  </td>
+                  {
+                    usersHalloween.map(row => (
+                      <td className="twitch-link-cell" key={row.name}>
+                        <a href={row.twitch}>Watch Me</a>
+                      </td>
+                    ))
+                  }
+                </tr>
                 {
-                  usersHalloween.map(row => (
-                    <th key={row.name}>
-                      <span>{row.name}</span>
-                    </th>
+                  gameRowsHalloween.map(row => (
+                    <GameListRow
+                      key={row.time}
+                      time={row.time}
+                      items={row.users}
+                    />
                   ))
                 }
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="table-column-first twitch-link-cell">
-                  Twitch Link
-                </td>
+              </tbody>
+              </table>
+            </Tab>
+            <Tab eventKey={2} title="Nov 3rd (Main Event)">
+              <table id="main2018" className="table table-hover">
+              <thead>
+                <tr>
+                  <th>Time Played</th>
+                  {
+                    users2018.map(row => (
+                      <th key={row.name}>
+                        <span>{row.name}</span>
+                      </th>
+                    ))
+                  }
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="table-column-first twitch-link-cell">
+                    Twitch Link
+                  </td>
+                  {
+                    users2018.map(row => (
+                      <td className="twitch-link-cell" key={row.name}>
+                        <a href={row.twitch}>Watch Me</a>
+                      </td>
+                    ))
+                  }
+                </tr>
                 {
-                  usersHalloween.map(row => (
-                    <td className="twitch-link-cell" key={row.name}>
-                      <a href={row.twitch}>Watch Me</a>
-                    </td>
+                  gameRows2018.map(row => (
+                    <GameListRow
+                      key={row.time}
+                      time={row.time}
+                      items={row.users}
+                    />
                   ))
                 }
-              </tr>
-              {
-                gameRowsHalloween.map(row => (
-                  <GameListRow
-                    key={row.time}
-                    time={row.time}
-                    items={row.users}
-                  />
-                ))
-              }
-            </tbody>
-          </table>
-
-          <table id="main2018" className="table table-hover">
-            <thead>
-              <tr>
-                <th>Time Played</th>
-                {
-                  users2018.map(row => (
-                    <th key={row.name}>
-                      <span>{row.name}</span>
-                    </th>
-                  ))
-                }
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="table-column-first twitch-link-cell">
-                  Twitch Link
-                </td>
-                {
-                  users2018.map(row => (
-                    <td className="twitch-link-cell" key={row.name}>
-                      <a href={row.twitch}>Watch Me</a>
-                    </td>
-                  ))
-                }
-              </tr>
-              {
-                gameRows2018.map(row => (
-                  <GameListRow
-                    key={row.time}
-                    time={row.time}
-                    items={row.users}
-                  />
-                ))
-              }
-            </tbody>
-          </table>
-
+              </tbody>
+              </table>
+            </Tab>
+          </Tabs>
         </div>
       </div>
     );
