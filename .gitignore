@@ -2,3 +2,4 @@ node_modules
 tags
 *.map
 .idea
+npm-debug.log
