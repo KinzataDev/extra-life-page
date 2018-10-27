@@ -16,8 +16,20 @@ const gamedata = [
     link: 'http://www.alanwake.com/',
   },
   {
+    name: 'Alien: Isolation',
+    link: 'https://store.steampowered.com/app/214490/Alien_Isolation/',
+  },
+  {
     name: 'Armello',
     link: 'http://armello.com/',
+  },
+  {
+    name: 'Amnesia: The Dark Descent',
+    link: 'https://store.steampowered.com/app/57300/Amnesia_The_Dark_Descent/',
+  },
+  {
+    name: 'Binding of Isaac: Rebirth',
+    link: 'https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/',
   },
   {
     name: 'Cogmind',
@@ -26,6 +38,10 @@ const gamedata = [
   {
     name: 'Company of Heroes 2',
     link: 'http://www.companyofheroes.com/games/company-of-heroes-2',
+  },
+  {
+    name: 'Crypt of the NecroDancer',
+    link: 'https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/',
   },
   {
     name: 'D&D: Chronicles of Mystara',
@@ -84,12 +100,20 @@ const gamedata = [
     link: 'http://www.killingfloor2.com/',
   },
   {
+    name: 'Left 4 Dead 2',
+    link: 'https://store.steampowered.com/app/550/Left_4_Dead_2/',
+  },
+  {
     name: 'Legend of Grimrock',
     link: 'http://www.grimrock.net/',
   },
   {
     name: 'Mark of the Ninja',
     link: 'https://www.klei.com/games/mark-ninja',
+  },
+  {
+    name: 'Metro 2033',
+    link: 'https://store.steampowered.com/app/286690/Metro_2033_Redux/',
   },
   {
     name: 'Offworld Trading Company',
@@ -108,12 +132,28 @@ const gamedata = [
     link: 'https://playstarbound.com/',
   },
   {
+    name: 'Team Fortress 2',
+    link: 'https://store.steampowered.com/app/440/Team_Fortress_2/',
+  },
+  {
+    name: 'The End Is Nigh',
+    link: 'https://store.steampowered.com/app/583470/The_End_Is_Nigh/',
+  },
+  {
     name: 'The Flame in the Flood',
     link: 'http://www.themolassesflood.com/',
   },
   {
     name: 'The Long Dark',
     link: 'http://www.thelongdark.com/',
+  },
+  {
+    name: 'The Typing of The Dead: Overkill',
+    link: 'https://store.steampowered.com/app/246580/The_Typing_of_The_Dead_Overkill/',
+  },
+  {
+    name: 'They are Billions',
+    link: 'https://store.steampowered.com/app/644930/They_Are_Billions/',
   },
   {
     name: 'Throne of Lies',
@@ -139,6 +179,10 @@ const gamedata = [
     name: 'Wolf Among Us',
     link: 'https://telltale.com/series/the-wolf-among-us/',
   },
+  {
+    name: 'Zombie Night Terror',
+    link: 'https://store.steampowered.com/app/416680/Zombie_Night_Terror/',
+  }
 ];
 
 export default gamedata;

@@ -428,135 +428,159 @@ const scheduledata = {
       games: [
         {
           time: '8:00am',
-          name: 'TBD',
+          name: 'Zombie Night Terror',
         },
         {
           time: '9:00am',
-          name: 'TBD',
+          name: 'Zombie Night Terror',
         },
         {
           time: '10:00am',
-          name: 'TBD',
+          name: 'Team Fortress 2',
         },
         {
           time: '11:00am',
-          name: 'TBD',
+          name: 'Team Fortress 2',
         },
         {
           time: '12:00pm',
-          name: 'TBD',
+          name: 'Metro 2033',
         },
         {
           time: '1:00pm',
-          name: 'TBD',
+          name: 'Metro 2033',
         },
         {
           time: '2:00pm',
-          name: 'TBD',
+          name: 'The Binding of Isaac: Rebirth',
         },
         {
           time: '3:00pm',
-          name: 'TBD',
+          name: 'Amnesia: The Dark Descent',
         },
         {
           time: '4:00pm',
-          name: 'TBD',
+          name: 'Amnesia: The Dark Descent',
         },
         {
           time: '5:00pm',
-          name: 'TBD',
+          name: 'Amnesia: The Dark Descent',
         },
         {
           time: '6:00pm',
-          name: 'TBD',
+          name: 'Killing Floor 2',
         },
         {
           time: '7:00pm',
-          name: 'TBD',
+          name: 'Killing Floor 2',
         },
         {
           time: '8:00pm',
-          name: 'TBD',
+          name: 'Alien: Isolation',
         },
         {
           time: '9:00pm',
-          name: 'TBD',
+          name: 'Alien: Isolation',
         },
         {
           time: '10:00pm',
-          name: 'TBD',
+          name: 'Alien: Isolation',
         },
         {
           time: '11:00pm',
-          name: 'TBD',
+          name: 'Left 4 Dead 2',
         },
         {
           time: '12:00am',
-          name: 'TBD',
+          name: 'Left 4 Dead 2',
         },
         {
           time: '1:00am',
-          name: 'TBD',
+          name: 'Left 4 Dead 2',
         },
         {
           time: '2:00am',
-          name: 'TBD',
+          name: 'They are Billions',
         },
         {
           time: '3:00am',
-          name: 'TBD',
+          name: 'They are Billions',
         },
         {
           time: '4:00am',
-          name: 'TBD',
+          name: 'The End Is Nigh',
         },
         {
           time: '5:00am',
-          name: 'TBD',
+          name: 'The Typing of The Dead: Overkill',
         },
         {
           time: '6:00am',
-          name: 'TBD',
+          name: 'Crypt of the NecroDancer',
         },
         {
           time: '7:00am',
-          name: 'TBD',
+          name: 'Crypt of the NecroDancer',
+        },
+      ],
+    },
+    ian: {
+      games: [
+        {
+          time: '10:00am',
+          name: 'Team Fortress 2',
+        },
+        {
+          time: '11:00am',
+          name: 'Team Fortress 2',
+        },
+        {
+          time: '6:00pm',
+          name: 'Killing Floor 2',
+        },
+        {
+          time: '7:00pm',
+          name: 'Killing Floor 2',
+        },
+      ],
+    },
+    max: {
+      games: [
+        {
+          time: '6:00pm',
+          name: 'Killing Floor 2',
+        },
+        {
+          time: '7:00pm',
+          name: 'Killing Floor 2',
+        },
+        {
+          time: '11:00pm',
+          name: 'Left 4 Dead 2',
+        },
+        {
+          time: '12:00am',
+          name: 'Left 4 Dead 2',
+        },
+        {
+          time: '1:00am',
+          name: 'Left 4 Dead 2',
         },
       ],
     },
     eric: {
       games: [
         {
-          time: '12:00am',
+          time: '11:00pm',
           name: 'TBD',
+        },
+        {
+          time: '12:00am',
+          name: 'Left 4 Dead 2',
         },
         {
           time: '1:00am',
-          name: 'TBD',
-        },
-        {
-          time: '2:00am',
-          name: 'TBD',
-        },
-        {
-          time: '3:00am',
-          name: 'TBD',
-        },
-        {
-          time: '4:00am',
-          name: 'TBD',
-        },
-        {
-          time: '5:00am',
-          name: 'TBD',
-        },
-        {
-          time: '6:00am',
-          name: 'TBD',
-        },
-        {
-          time: '7:00am',
-          name: 'TBD',
+          name: 'Left 4 Dead 2',
         },
       ],
     },
