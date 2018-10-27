@@ -103,10 +103,6 @@ export default class Schedule extends React.Component {
       <div className="schedule">
         <div className="col-xs-12">
           <h2>Game Schedule</h2>
-          <div className="row external-button-small">
-            <a href="http://multitwitch.tv/kinzata/ryan_plays_mediocrely/eric_plays_mediocrely/andsominity/dmfaber1">
-              Watch us live on Multi-Twitch here </a>
-          </div>
 
           <Tabs defaultActiveKey={1}>
             <Tab eventKey={1} title="Oct 27th (Halloween Special)">
