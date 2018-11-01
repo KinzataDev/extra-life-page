@@ -8,6 +8,10 @@ const gamedata = [
     link: '',
   },
   {
+    name: 'A Hat in Time',
+    link: 'http://hatintime.com/',
+  },
+  {
     name: 'AI War',
     link: 'http://arcengames.com/ai-war/',
   },
@@ -28,6 +32,10 @@ const gamedata = [
     link: 'https://store.steampowered.com/app/57300/Amnesia_The_Dark_Descent/',
   },
   {
+    name: 'Besiege',
+    link: 'http://www.besiegethegame.com/',
+  },
+  {
     name: 'Binding of Isaac: Rebirth',
     link: 'https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/',
   },
@@ -40,12 +48,24 @@ const gamedata = [
     link: 'http://www.companyofheroes.com/games/company-of-heroes-2',
   },
   {
+    name: 'Cook, Serve, Delicious 2!!',
+    link: 'http://www.cookservedelicious.com/main/',
+  },
+  {
     name: 'Crypt of the NecroDancer',
     link: 'https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/',
   },
   {
     name: 'D&D: Chronicles of Mystara',
     link: 'http://store.steampowered.com/app/229480/Dungeons__Dragons_Chronicles_of_Mystara/',
+  },
+  {
+    name: 'Dead Cells',
+    link: 'https://dead-cells.com/',
+  },
+  {
+    name: 'Deep Rock Galactic',
+    link: 'https://www.deeprockgalactic.com/',
   },
   {
     name: 'Diablo 3',
@@ -64,12 +84,24 @@ const gamedata = [
     link: 'http://store.steampowered.com/app/249050/Dungeon_of_the_Endless/',
   },
   {
+    name: 'Dungeons III',
+    link: 'https://store.steampowered.com/app/493900/Dungeons_3/',
+  },
+  {
     name: 'Dungeons of Dredmor',
     link: 'https://dungeonsofdredmor.com/',
   },
   {
     name: 'Dust: An Elysian Tail',
     link: 'http://store.steampowered.com/app/236090/Dust_An_Elysian_Tail/',
+  },
+  {
+    name: 'Dying Light',
+    link: 'https://dyinglightgame.com/?lang=en_US',
+  },
+  {
+    name: "Empire Total War",
+    link: 'https://www.totalwar.com/empire-product-page',
   },
   {
     name: "Five Nights at Freddy's 2",
@@ -84,8 +116,20 @@ const gamedata = [
     link: 'http://us.battle.net/heroes/en/',
   },
   {
+    name: 'Hitman',
+    link: 'https://hitman.com/',
+  },
+  {
+    name: 'Hollow Knight',
+    link: 'http://hollowknight.com/',
+  },
+  {
     name: 'Horizon: Zero Dawn',
     link: 'https://www.playstation.com/en-us/games/horizon-zero-dawn-ps4/',
+  },
+  {
+    name: 'Into the Breach',
+    link: 'https://subsetgames.com/itb.html',
   },
   {
     name: 'Invisible Inc.',
@@ -116,12 +160,20 @@ const gamedata = [
     link: 'https://store.steampowered.com/app/286690/Metro_2033_Redux/',
   },
   {
+    name: 'Monster Hunter: World',
+    link: 'http://www.monsterhunterworld.com/pc/us/',
+  },
+  {
     name: 'Offworld Trading Company',
     link: 'http://www.offworldgame.com/',
   },
   {
     name: 'Overwatch',
     link: 'https://playoverwatch.com/en-us/',
+  },
+  {
+    name: 'Oxygen Not Included',
+    link: 'https://www.klei.com/games/oxygen-not-included',
   },
   {
     name: 'Rocket League',
@@ -164,6 +216,10 @@ const gamedata = [
     link: 'http://www.toothandtailgame.com/',
   },
   {
+    name: 'Vermintide 2',
+    link: 'http://www.vermintide.com/',
+  },
+  {
     name: 'VVVVVV',
     link: 'http://thelettervsixtim.es/',
   },
@@ -178,6 +234,10 @@ const gamedata = [
   {
     name: 'Wolf Among Us',
     link: 'https://telltale.com/series/the-wolf-among-us/',
+  },
+  {
+    name: 'WWIII',
+    link: 'http://www.thefarm51.com/eng/projekt/world-war-3-2/',
   },
   {
     name: 'Zombie Night Terror',
