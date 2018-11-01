@@ -104,7 +104,7 @@ export default class Schedule extends React.Component {
         <div className="col-xs-12">
           <h2>Game Schedule</h2>
 
-          <Tabs defaultActiveKey={1}>
+          <Tabs defaultActiveKey={2}>
             <Tab eventKey={1} title="Oct 27th (Halloween Special)">
               <table id="halloween2018" className="table table-hover">
               <thead>
