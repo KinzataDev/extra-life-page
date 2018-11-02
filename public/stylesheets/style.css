@@ -65,7 +65,9 @@ a:hover, a:focus {
   padding-top: 1em; }
 
 .external-button-large {
-  padding: 5px; }
+  padding: 5px; 
+  font-family: Furore;
+  margin-bottom: 15px;}
   .external-button-large a {
     color: #f28b20;
     font-size: xx-large;

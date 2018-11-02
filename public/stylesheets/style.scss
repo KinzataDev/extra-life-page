@@ -65,6 +65,8 @@ a:hover, a:focus {
 
 @mixin external-button($pixel, $font-size) {
   padding: 5px;
+  font-family: Furore;
+  margin-bottom: 15px;
   a {
     color: $orange;
     font-size: $font-size;
