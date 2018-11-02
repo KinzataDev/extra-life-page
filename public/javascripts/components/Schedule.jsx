@@ -166,7 +166,7 @@ export default class Schedule extends React.Component {
                   {
                     users2018.map(row => (
                       <td className="twitch-link-cell" key={row.name}>
-                        <a href={row.twitch}>Watch Me</a>
+                        <a href={row.twitch}>Watch {row.name} Here</a>
                       </td>
                     ))
                   }
