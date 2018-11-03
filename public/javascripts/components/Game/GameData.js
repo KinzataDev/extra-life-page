@@ -68,6 +68,10 @@ const gamedata = [
     link: 'https://www.deeprockgalactic.com/',
   },
   {
+    name: 'Destiny 2',
+    link: 'https://www.destinythegame.com/',
+  },
+  {
     name: 'Diablo 3',
     link: 'https://us.battle.net/d3/en/',
   },
@@ -104,6 +108,10 @@ const gamedata = [
     link: 'https://www.totalwar.com/empire-product-page',
   },
   {
+    name: 'Final Fantasy XIV',
+    link: 'https://www.finalfantasyxiv.com/',
+  },
+  {
     name: "Five Nights at Freddy's 2",
     link: 'http://store.steampowered.com/app/332800/Five_Nights_at_Freddys_2/',
   },
@@ -126,6 +134,10 @@ const gamedata = [
   {
     name: 'Horizon: Zero Dawn',
     link: 'https://www.playstation.com/en-us/games/horizon-zero-dawn-ps4/',
+  },
+  {
+    name: 'Hotline Miami',
+    link: 'http://hotlinemiami.com/',
   },
   {
     name: 'Into the Breach',
@@ -164,8 +176,16 @@ const gamedata = [
     link: 'http://www.monsterhunterworld.com/pc/us/',
   },
   {
+    name: 'Neon Chrome',
+    link: 'https://store.steampowered.com/app/428750/Neon_Chrome/',
+  },
+  {
     name: 'Offworld Trading Company',
     link: 'http://www.offworldgame.com/',
+  },
+  {
+    name: 'One Finger Death Punch',
+    link: 'https://store.steampowered.com/app/264200/One_Finger_Death_Punch/',
   },
   {
     name: 'Overwatch',
@@ -174,6 +194,10 @@ const gamedata = [
   {
     name: 'Oxygen Not Included',
     link: 'https://www.klei.com/games/oxygen-not-included',
+  },
+  {
+    name: 'Planet Coaster',
+    link: 'https://www.planetcoaster.com/',
   },
   {
     name: 'Rocket League',
@@ -234,6 +258,10 @@ const gamedata = [
   {
     name: 'Wolf Among Us',
     link: 'https://telltale.com/series/the-wolf-among-us/',
+  },
+  {
+    name: 'World of Warcraft',
+    link: 'https://worldofwarcraft.com/',
   },
   {
     name: 'WWIII',

@@ -108,103 +108,103 @@ const scheduledata = {
       games: [
         {
           time: '8:00am',
-          name: 'TBD',
+          name: 'Destiny 2',
         },
         {
           time: '9:00am',
-          name: 'TBD',
+          name: 'Destiny 2',
         },
         {
           time: '10:00am',
-          name: 'TBD',
+          name: 'Planet Coaster',
         },
         {
           time: '11:00am',
-          name: 'TBD',
+          name: 'Planet Coaster',
         },
         {
           time: '12:00pm',
-          name: 'TBD',
+          name: 'Planet Coaster',
         },
         {
           time: '1:00pm',
-          name: 'TBD',
+          name: 'Planet Coaster',
         },
         {
           time: '2:00pm',
-          name: 'TBD',
+          name: 'World of Warcraft',
         },
         {
           time: '3:00pm',
-          name: 'TBD',
+          name: 'World of Warcraft',
         },
         {
           time: '4:00pm',
-          name: 'TBD',
+          name: 'World of Warcraft',
         },
         {
           time: '5:00pm',
-          name: 'TBD',
+          name: 'Tooth and Tail',
         },
         {
           time: '6:00pm',
-          name: 'TBD',
+          name: 'Tooth and Tail',
         },
         {
           time: '7:00pm',
-          name: 'TBD',
+          name: 'Tooth and Tail',
         },
         {
           time: '8:00pm',
-          name: 'TBD',
+          name: 'The Long Dark',
         },
         {
           time: '9:00pm',
-          name: 'TBD',
+          name: 'The Long Dark',
         },
         {
           time: '10:00pm',
-          name: 'TBD',
+          name: 'Crypt of the NecroDancer',
         },
         {
           time: '11:00pm',
-          name: 'TBD',
+          name: 'One Finger Death Punch',
         },
         {
           time: '12:00am',
-          name: 'TBD',
+          name: 'Hotline Miami',
         },
         {
           time: '1:00am',
-          name: 'TBD',
+          name: 'Hotline Miami',
         },
         {
           time: '1:00am (DST)',
-          name: 'TBD',
+          name: 'Hotline Miami',
         },
         {
           time: '2:00am',
-          name: 'TBD',
+          name: 'Neon Chrome',
         },
         {
           time: '3:00am',
-          name: 'TBD',
+          name: 'Neon Chrome',
         },
         {
           time: '4:00am',
-          name: 'TBD',
+          name: 'Final Fantasy XIV',
         },
         {
           time: '5:00am',
-          name: 'TBD',
+          name: 'Final Fantasy XIV',
         },
         {
           time: '6:00am',
-          name: 'TBD',
+          name: 'Final Fantasy XIV',
         },
         {
           time: '7:00am',
-          name: 'TBD',
+          name: 'Final Fantasy XIV',
         },
       ],
     },
