@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './GameListRow.css';
+// import './GameListRow.css';
 
 class GameListGroupItem extends React.Component {
   render() {

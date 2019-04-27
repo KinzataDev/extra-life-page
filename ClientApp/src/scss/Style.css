@@ -1,0 +1,220 @@
+@font-face {
+  font-family: Furore;
+  src: url("/fonts/Furore.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Cantarell;
+  src: url("/fonts/Cantarell-Regular.ttf") format("truetype");
+}
+
+.table-column-first {
+  border-right: 1px solid;
+  color: #23c1e8;
+}
+
+.table-column-first a:hover {
+  color: #23c1e8;
+}
+
+.twitch-link-cell {
+  background-color: #4b367c;
+  color: white;
+}
+
+.twitch-link-cell a {
+  color: white;
+}
+
+body {
+  background: url("/images/bluegridpattern-edit.png") no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: Cantarell;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #23c1e8;
+  font-family: Furore;
+}
+
+hr {
+  border-bottom: 2px dashed #96d400;
+}
+
+a {
+  color: #f28b20;
+}
+
+a:hover, a:focus {
+  color: #96d400;
+  text-decoration: none;
+}
+
+.bg-dark-blue {
+  background-color: #1d4c6c;
+}
+
+.bg-light-blue {
+  background-color: #23c1e8;
+}
+
+.top-margin {
+  margin-top: 5em;
+}
+
+.bottom-margin {
+  margin-bottom: 5em;
+}
+
+.border-shadow {
+  -webkit-box-shadow: 0px 0px 100px 0px #23c1e8;
+          box-shadow: 0px 0px 100px 0px #23c1e8;
+  border-radius: 1em;
+  background: black 1px 1px;
+}
+
+.content {
+  background-color: #1d4c6c;
+}
+
+.card {
+  margin: 0 10% .75em 10%;
+  background-color: #96d400;
+}
+
+.header {
+  padding-top: 1em;
+}
+
+.external-button-large {
+  padding: 5px;
+  font-family: Furore;
+  margin-bottom: 15px;
+}
+
+.external-button-large a {
+  color: #f28b20;
+  font-size: xx-large;
+  border: 5px solid #f28b20;
+  -webkit-box-shadow: 5px 5px #96d400;
+          box-shadow: 5px 5px #96d400;
+  padding: 5px;
+}
+
+.external-button-large a:hover {
+  color: #96d400;
+  -webkit-box-shadow: 5px 5px #f28b20;
+          box-shadow: 5px 5px #f28b20;
+  border-color: #96d400;
+  text-decoration: none;
+}
+
+.external-button-large a:focus {
+  text-decoration: none;
+}
+
+.external-button-large a:active {
+  color: #23c1e8;
+  border-color: #23c1e8;
+}
+
+.external-button-small {
+  padding: 5px;
+  font-family: Furore;
+  margin-bottom: 15px;
+}
+
+.external-button-small a {
+  color: #f28b20;
+  font-size: large;
+  border: 3px solid #f28b20;
+  -webkit-box-shadow: 3px 3px #96d400;
+          box-shadow: 3px 3px #96d400;
+  padding: 3px;
+}
+
+.external-button-small a:hover {
+  color: #96d400;
+  -webkit-box-shadow: 3px 3px #f28b20;
+          box-shadow: 3px 3px #f28b20;
+  border-color: #96d400;
+  text-decoration: none;
+}
+
+.external-button-small a:focus {
+  text-decoration: none;
+}
+
+.external-button-small a:active {
+  color: #23c1e8;
+  border-color: #23c1e8;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border {
+  border: 3px solid black;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-card {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.row-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.table tbody tr td:last-child {
+  border-right: 0;
+}
+
+.table tbody tr td:first-child {
+  border-left: 0;
+}
+
+.table tbody tr td,
+.table tbody tr th {
+  border-color: dimgray;
+}
+
+.table tbody tr td {
+  border-right-width: 1px;
+  border-right-style: solid;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=Style.css.map */

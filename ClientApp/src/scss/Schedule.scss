@@ -1,0 +1,24 @@
+@import "./Base";
+
+.schedule {
+  text-align: left;
+  font-family: Furore;
+}
+
+.external-button-small {
+  text-align: center;
+}
+
+thead {
+  letter-spacing: 2px;
+}
+
+th {
+  span {
+    color: $light_blue;
+  }
+}
+
+h2 {
+  text-align: center;
+}

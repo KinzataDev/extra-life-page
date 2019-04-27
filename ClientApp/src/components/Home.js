@@ -4,16 +4,17 @@ import { About } from './About';
 import { Donate } from './Donate';
 import { Twitch } from './Twitch';
 import { Schedule } from './Schedule';
-// import '../../stylesheets/style.css';
+import { Row, Col, Container } from 'reactstrap';
+import '../scss/Style.css';
 
 export class Home extends Component {
   static displayName = Home.name;
 
   render () {
     return (
-      <div className="clearfix top-margin bottom-margin">
-        <div className="col-xs-1" />
-        <div className="col-xs-10 content border-shadow">
+      <Container className="clearfix top-margin bottom-margin">
+      <Row>
+        <Col className="content border-shadow">
           <Header />
           <hr />
           <About />
@@ -23,9 +24,9 @@ export class Home extends Component {
           <Twitch />
           <hr />
           <Schedule />
-        </div>
-        <div className="col-xs-1" />
-      </div>
+        </Col>
+      </Row>
+      </Container>
     );
   }
 }
