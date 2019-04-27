@@ -1,5 +1,6 @@
 import React from 'react';
-import './Donate.css';
+import {Row, Col, Container} from 'reactstrap';
+import '../scss/Donate.css';
 
 export class Twitch extends React.Component {
   constructor() {
@@ -10,29 +11,35 @@ export class Twitch extends React.Component {
   }
   render() {
     return (
-      <div className="about">
+      <Container className="about">
         <h2>Watch us on Twitch</h2>
-        <div className="row external-button-large show-on-small">
+        <Row className="external-button-large show-on-small">
           <a href="https://twitch.tv/Kinzata">Watch Max</a>
-        </div>
-        <div className="row external-button-large show-on-small">
+        </Row>
+        <Row className="external-button-large show-on-small">
           <a href="https://twitch.tv/eric_plays_mediocrely">Watch Eric</a>
-        </div>
-        <div className="row external-button-large show-on-small">
+        </Row>
+        <Row className="external-button-large show-on-small">
           <a href="https://twitch.tv/Swissninja163">Watch Ian</a>
-        </div>
-        <div className="row">
-          <div className="col-xs-4 external-button-large hide-on-small">
-           <a href="https://twitch.tv/Kinzata">Watch Max</a>
-          </div>
-          <div className="col-xs-4 external-button-large hide-on-small">
-          <a href="https://twitch.tv/eric_plays_mediocrely">Watch Eric</a>
-          </div>
-          <div className="col-xs-4 external-button-large hide-on-small">
-          <a href="https://twitch.tv/Swissninja163">Watch Ian</a>
-          </div>
-        </div>
-      </div>
+        </Row>
+        <Row>
+          <Col className="external-button-large hide-on-small">
+            <center>
+              <a href="https://twitch.tv/Kinzata">Watch Max</a>
+            </center>
+          </Col>
+          <Col className="external-button-large hide-on-small">
+            <center>
+              <a href="https://twitch.tv/eric_plays_mediocrely">Watch Eric</a>
+            </center>
+          </Col>
+          <Col className="external-button-large hide-on-small">
+            <center>
+              <a href="https://twitch.tv/Swissninja163">Watch Ian</a>
+            </center>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }

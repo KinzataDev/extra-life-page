@@ -2,7 +2,7 @@ import React from 'react';
 import {TabContent, TabPane, Nav, NavItem, NavLink} from 'reactstrap';
 import classnames from 'classnames';
 import GameListRow from './GameListRow';
-// import './Schedule.css';
+import '../scss/Schedule.css';
 
 import scheduledata from './Schedule/ScheduleData';
 import gamedata from './Game/GameData';
