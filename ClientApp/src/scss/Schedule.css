@@ -46,4 +46,8 @@ th span {
 h2 {
   text-align: center;
 }
+
+a:not([href]):not([tabindex]):hover {
+  background-color: #eee;
+}
 /*# sourceMappingURL=Schedule.css.map */
