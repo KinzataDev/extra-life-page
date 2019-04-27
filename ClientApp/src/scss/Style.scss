@@ -1,0 +1,155 @@
+@import "./Base";
+
+$imagePath : "/images";
+
+body {
+  background: url('#{$imagePath}/bluegridpattern-edit.png') no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: Cantarell;
+}
+
+h1, h2, h3, h4, h5 {
+  color: $light-blue;
+  font-family: Furore;
+}
+
+hr {
+  border-bottom: 2px dashed $light-green;
+}
+
+a, a:not([href]):not([tabindex]) {
+  color: $orange;
+  cursor: pointer;
+}
+
+a:hover,
+a:not([href]):not([tabindex]):hover,
+a:focus,
+a:not([href]):not([tabindex]):focus {
+  color: $light-green;
+  text-decoration: none;
+}
+
+.bg-dark-blue {
+  background-color: $dark-blue;
+}
+
+.bg-light-blue {
+  background-color: $light-blue;
+}
+
+.top-margin {
+  margin-top: 5em;
+}
+
+.bottom-margin {
+  margin-bottom: 5em;
+}
+
+.border-shadow {
+  box-shadow: 0px 0px 100px 0px $light-blue;
+  border-radius: 1em;
+  background: black 1px 1px;
+}
+
+.content {
+  background-color: $dark-blue;
+}
+
+.card {
+  margin: 0 10% .75em 10%;
+  background-color: $light-green;
+}
+
+.header {
+  padding-top: 1em;
+}
+
+@mixin external-button($pixel, $font-size) {
+  padding: 5px;
+  font-family: Furore;
+  margin-bottom: 15px;
+  a {
+    color: $orange;
+    font-size: $font-size;
+    border: $pixel solid $orange;
+    box-shadow: $pixel $pixel $light-green;
+    padding: $pixel;
+  }
+
+  a:hover {
+    color: $light-green;
+    box-shadow: $pixel $pixel $orange;
+    border-color: $light-green;
+    text-decoration: none;
+  }
+
+  a:focus {
+    text-decoration: none;
+  }
+
+  a:active {
+    color: $light-blue;
+    border-color: $light-blue;
+  }
+}
+
+.external-button-large {
+  @include external-button(5px, xx-large);
+}
+
+.external-button-small {
+  @include external-button(3px, large);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border {
+  border: 3px solid black;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-card {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.row-flex {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+
+.table tbody tr td:last-child{
+  border-right: 0;
+}
+
+.table tbody tr td:first-child{
+  border-left: 0;
+}
+
+.table tbody tr td,
+.table tbody tr th{
+  border-color: dimgray;
+}
+
+.table tbody tr td{
+  border-right-width: 1px;
+  border-right-style: solid;
+  vertical-align: middle;
+}
+
+
