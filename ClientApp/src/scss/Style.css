@@ -43,11 +43,15 @@ hr {
   border-bottom: 2px dashed #96d400;
 }
 
-a {
+a, a:not([href]):not([tabindex]) {
   color: #f28b20;
+  cursor: pointer;
 }
 
-a:hover, a:focus {
+a:hover,
+a:not([href]):not([tabindex]):hover,
+a:focus,
+a:not([href]):not([tabindex]):focus {
   color: #96d400;
   text-decoration: none;
 }

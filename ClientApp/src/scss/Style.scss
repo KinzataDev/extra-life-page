@@ -19,11 +19,15 @@ hr {
   border-bottom: 2px dashed $light-green;
 }
 
-a {
+a, a:not([href]):not([tabindex]) {
   color: $orange;
+  cursor: pointer;
 }
 
-a:hover, a:focus {
+a:hover,
+a:not([href]):not([tabindex]):hover,
+a:focus,
+a:not([href]):not([tabindex]):focus {
   color: $light-green;
   text-decoration: none;
 }
