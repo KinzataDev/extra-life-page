@@ -13,7 +13,7 @@ export class Schedule extends React.Component {
     super();
 
     this.state = {
-      activeTab: "2"
+      activeTab: "1"
     };
   }
 
@@ -101,13 +101,11 @@ export class Schedule extends React.Component {
       return allGames;
     }
 
-    const scheduleHalloween = scheduledata.halloween2018;
-    const usersHalloween = getUsers(scheduleHalloween);
-    const gameRowsHalloween = getGameRows(scheduleHalloween, usersHalloween);
+    const schedule = scheduledata['2019'];
+    const users = getUsers(schedule);
+    const gameRows = getGameRows(schedule, users);
 
-    const schedule2018 = scheduledata['2018'];
-    const users2018 = getUsers(schedule2018);
-    const gameRows2018 = getGameRows(schedule2018, users2018);
+    // Refactor out the tab logic to be able to generate from just the data
 
     return (
       <div className="schedule">
@@ -115,26 +113,26 @@ export class Schedule extends React.Component {
           <h2>Game Schedule</h2>
 
           <Nav tabs>
-            <NavItem>
+            {/* <NavItem>
               <NavLink
                 className={classnames({ active: this.state.activeTab === '1'})}
                 onClick={() => { this.toggle('1'); }}
               >
                 Oct 27th (Halloween Special)
             </NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLink
-                className={classnames({ active: this.state.activeTab === '2' })}
-                onClick={() => { this.toggle('2'); }}
+                className={classnames({ active: this.state.activeTab === '1' })}
+                onClick={() => { this.toggle('1'); }}
               >
-                Nov 3rd (Main Event)
+                Nov 2nd
             </NavLink>
             </NavItem>
           </Nav>
 
           <TabContent activeTab={this.state.activeTab}>
-            <TabPane tabId="1" title="Oct 27th (Halloween Special)">
+            {/* <TabPane tabId="1" title="Oct 27th (Halloween Special)">
               <table id="halloween2018" className="table table-hover">
                 <thead>
                   <tr>
@@ -172,14 +170,14 @@ export class Schedule extends React.Component {
                   }
                 </tbody>
               </table>
-            </TabPane>
-            <TabPane tabId="2" title="Nov 3rd (Main Event)">
-              <table id="main2018" className="table table-hover">
+            </TabPane> */}
+            <TabPane tabId="1" title="Nov 2nds">
+              <table id="main2019" className="table table-hover">
                 <thead>
                   <tr>
                     <th>Time Played</th>
                     {
-                      users2018.map(row => (
+                      users.map(row => (
                         <th key={row.name}>
                           <span>{row.name}</span>
                         </th>
@@ -193,7 +191,7 @@ export class Schedule extends React.Component {
                       Twitch Link
                   </td>
                     {
-                      users2018.map(row => (
+                      users.map(row => (
                         <td className="twitch-link-cell" key={row.name}>
                           <a href={row.twitch}>Watch {row.name} Here</a>
                         </td>
@@ -201,7 +199,7 @@ export class Schedule extends React.Component {
                     }
                   </tr>
                   {
-                    gameRows2018.map(row => (
+                    gameRows.map(row => (
                       <GameListRow
                         key={row.time}
                         time={row.time}

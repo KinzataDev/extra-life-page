@@ -29,6 +29,11 @@ const userdata = [
     name: 'Ian',
     twitch: 'https://twitch.tv/swissninja163',
   },
+  {
+    id: 'emily',
+    name: 'Emily',
+    twitch: 'https://twitch.tv/atani_39',
+  },
 ];
 
 export default userdata;
