@@ -20,7 +20,13 @@ export class Twitch extends React.Component {
           <a href="https://twitch.tv/eric_plays_mediocrely">Watch Eric</a>
         </Row>
         <Row className="external-button-large show-on-small">
+          <a href="https://twitch.tv/ryan_plays_mediocrely">Watch Ryan</a>
+        </Row>
+        <Row className="external-button-large show-on-small">
           <a href="https://twitch.tv/Swissninja163">Watch Ian</a>
+        </Row>
+        <Row className="external-button-large show-on-small">
+          <a href="https://twitch.tv/atani_39">Watch Emily</a>
         </Row>
         <Row>
           <Col className="external-button-large hide-on-small">
@@ -35,7 +41,19 @@ export class Twitch extends React.Component {
           </Col>
           <Col className="external-button-large hide-on-small">
             <center>
+              <a href="https://twitch.tv/ryan_plays_mediocrely">Watch Ryan</a>
+            </center>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="external-button-large hide-on-small">
+            <center>
               <a href="https://twitch.tv/Swissninja163">Watch Ian</a>
+            </center>
+          </Col>
+          <Col className="external-button-large hide-on-small">
+            <center>
+              <a href="https://twitch.tv/atani_39">Watch Emily</a>
             </center>
           </Col>
         </Row>

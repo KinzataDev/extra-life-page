@@ -5,8 +5,8 @@ export class Header extends Component {
     return (
       <div className="row header">
         <div className="col-md-12">
-          <h1>Extra Life 2018</h1>
-          <h5>November 3rd</h5>
+          <h1>Extra Life 2019</h1>
+          <h5>November 2nd</h5>
         </div>
       </div>
     );

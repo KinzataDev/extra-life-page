@@ -17,7 +17,7 @@ export class Donate extends React.Component {
   }
 
   getDonationAmount() {
-    getTeamInfo(39395)
+    getTeamInfo(45491)
       .then((data) => {
         this.setState({ donationAmount: data.sumDonations });
       })
@@ -30,25 +30,25 @@ export class Donate extends React.Component {
     return (
       <Container className="donate">
         <Row className="show-on-small external-button-large">
-          <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=39395">
+          <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=45491">
             DONATE HERE</a>
         </Row>
         <Row className="flex">
           <Col className="stretch-on-small">
             <div className="card">
               <div className="card-block">
-                <p className="card-text">Last year we raised $1,825</p>
+                <p className="card-text">Last year our team raised $2,234.50</p>
               </div>
             </div>
             <div className="card">
               <div className="card-block">
-                <p className="card-text">Extra Life raised $11.1 million in 2017</p>
+                <p className="card-text">Extra Life raised $11.1 million in 2018</p>
               </div>
             </div>
           </Col>
           <Col className="hide-on-small contract-on-small external-button-large">
             <center>
-              <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=39395">
+              <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=45491">
                 DONATE HERE</a>
             </center>
           </Col>
@@ -56,12 +56,12 @@ export class Donate extends React.Component {
 
             <div className="card">
               <div className="card-block">
-                <p className="card-text">For 2018 we’ve raised: ${this.state.donationAmount}</p>
+                <p className="card-text">For 2019 we’ve raised: ${this.state.donationAmount}</p>
               </div>
             </div>
             <div className="card">
               <div className="card-block">
-                <p className="card-text">Extra Life has raised more than $40 million since 2008</p>
+                <p className="card-text">Extra Life has raised more than $50 million since 2008</p>
               </div>
             </div>
           </Col>
