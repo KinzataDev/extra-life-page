@@ -7,7 +7,7 @@ const userdata = [
     twitchhandle: 'kinzata',
     icon: '/images/members/max.png',
     extralifeuserid: '359073',
-    bio: 'Bio for Max',
+    bio: '5th year Extra Lifer.  Waits all year to use the 25th hour to play games (for the kids)!  Rocket League enthusiast.  Dad to one cat, one dog and about 3 computers.',
   },
   {
     id: 'ryan',

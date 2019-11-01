@@ -286,6 +286,16 @@ const gamedata = [
     image: '/images/games/rocket-league.jpg',
   },
   {
+    name: 'Roguelike Power Hour',
+    link: 'https://www.gridsagegames.com/cogmind/',
+    image: '/images/games/roguelike-power-hour.jpg',
+  },
+  {
+    name: 'Roguelike Power Hour Returns',
+    link: 'http://www.cavesofqud.com/',
+    image: '/images/games/roguelike-power-hour.jpg',
+  },
+  {
     name: 'Sekiro: Shadows Die Twice',
     link: 'https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice/',
     image: '/images/games/sekiro-shadows-die-twice.jpg',
