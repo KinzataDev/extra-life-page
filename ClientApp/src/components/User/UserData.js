@@ -17,7 +17,7 @@ const userdata = [
     twitchhandle: 'ryan_plays_mediocrely',
     icon: '/images/members/ryan.png',
     extralifeuserid: '377608',
-    bio: 'Bio for Ryan',
+    bio: 'Mediocrely to me means going out of my way to have fun and go outside the norms over playing optimally and I\'ll be doing that more than ever this year For The Kids!',
   },
   {
     id: 'andy',
