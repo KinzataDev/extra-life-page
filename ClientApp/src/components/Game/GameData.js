@@ -6,6 +6,7 @@ const gamedata = [
   {
     name: 'TBD',
     link: '',
+    image: '/images/games/tbd.png',
   },
   {
     name: 'A Hat in Time',
