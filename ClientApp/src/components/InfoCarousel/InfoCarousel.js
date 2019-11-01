@@ -9,6 +9,8 @@ import "./InfoCarousel.css";
 export class InfoCarousel extends Component {
   render () {
     var settings = {
+      autoplay: true,
+      autoplaySpeed: 6000,
       dots: false,
       infinite: true,
       speed: 500,

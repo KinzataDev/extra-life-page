@@ -9,8 +9,8 @@ export class Header extends Component {
         <Container>
           <span className="header__link"><img src="/images/icon-home.png" alt="Home"/></span>
           <span className="header__link"><img src="/images/logo-team-mediocrely.png" alt="Home"/></span>
-          <a className="header__link" href="#members">Donate</a>
           <a className="header__link" href="#about">About</a>
+          <a className="header__link" href="#members">Donate</a>
           <a className="header__link" href="#schedule">Schedule</a>
         </Container>
       </header>
