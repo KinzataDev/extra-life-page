@@ -21,7 +21,7 @@ export class About extends Component {
                             <p>A few years ago a small group of us local Milwaukee gamers got together and formed Team Mediocrely.</p>
                             <p><strong>Our mission</strong> is to help children in need of medical care by raising donations through participating in the Extra Life 24-hour gaming marathon on November 2, 2019. Starts at 8:00 AM.</p>
                             <p><strong>100% of our donations</strong> will go to the Children’s Hospital of Wisconsin and fund critical treatments and healthcare services, pediatric medical equipment and charitable care when you <strong>donate through our Extra Life pages</strong>.</p>
-                            <p>To date we have successfully raised a total of $1,825.
+                            <p>Last year, we raised a total of $2,234.50.
                                 <br/>
                                 Our team goal this year is to raise $3,000 and with your support we can do it!
                             </p>
