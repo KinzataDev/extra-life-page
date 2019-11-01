@@ -1,0 +1,72 @@
+.members {
+    background-image: url("/images/blue-grid.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px 0;
+}
+
+.members__title {
+    font-family: Furore;
+    font-size: 24px;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+}
+
+.member {
+    padding: 30px 0;
+}
+
+.member + .member {
+    border-top: 1px solid #8ea7b7;
+}
+
+.member__icon {
+    width: 8.33333333333333%;
+    float: left;
+    text-align: center;
+
+}
+
+.member__details {
+    width: 53.7037037037037%;
+    float: left;
+}
+
+.member__name {
+    font-family: Furore;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    margin-top: 0;
+}
+
+.member__bio {
+    font-family: Cantarell;
+    font-size: 17px;
+    color: #fff;
+}
+
+.member__donations {
+    font-family: Cantarell;
+    font-size: 17px;
+    color: #82c340;
+}
+
+.member__donation-raised {
+    padding-right: 30px;
+}
+
+.member__donation-num {
+}
+
+.member__inplay {
+    width: ‭37.96296296296296‬%;
+    float: left;
+}
+
+.member__donate {
+    display: block;
+    margin-top: 15px;
+}

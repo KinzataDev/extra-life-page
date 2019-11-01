@@ -1,32 +1,27 @@
 import React, { Component } from 'react';
-import { Header } from './Header';
-import { About } from './About';
-import { Donate } from './Donate';
-import { Twitch } from './Twitch';
-import { Schedule } from './Schedule';
-import { Row, Col, Container } from 'reactstrap';
-import '../scss/Style.css';
+import { Header } from './Header/Header';
+import { InfoCarousel } from './InfoCarousel/InfoCarousel';
+import { About } from './About/About';
+import { DonateHeader } from './DonateHeader/DonateHeader';
+import { Members } from './Members/Members';
+import { Schedule } from './Schedule/Schedule';
+import '../scss/Base.css';
+import '../scss/h5bp/normalize.css';
+import '../scss/h5bp/main.css';
 
 export class Home extends Component {
   static displayName = Home.name;
 
   render () {
     return (
-      <Container className="clearfix top-margin bottom-margin">
-      <Row>
-        <Col className="content border-shadow">
+        <>
           <Header />
-          <hr />
+          <InfoCarousel />
           <About />
-          <hr />
-          <Donate />
-          <hr />
-          <Twitch />
-          <hr />
+          <DonateHeader />
+          <Members />
           <Schedule />
-        </Col>
-      </Row>
-      </Container>
+      </>
     );
   }
 }
