@@ -14,17 +14,60 @@ export class Members extends React.Component {
 
     this.state = {
       donationAmount: 0,
+      maxTotal: 0,
+      maxNum: 0,
+      ianTotal: 0,
+      ianNum: 0,
+      emilyTotal: 0,
+      emilyNum: 0,
+      ryanTotal: 0,
+      ryanNum: 0,
     };
   }
 
   componentDidMount() {
     this.getDonationAmount();
+    this.getUserDonations();
   }
 
   getDonationAmount() {
     getTeamInfo(45491)
       .then((data) => {
         this.setState({ donationAmount: data.sumDonations });
+      })
+      .catch(() => {
+        // console.log(e);
+      });
+  }
+
+  getUserDonations() {
+    getUserInfo(359073)
+      .then((data) => {
+        this.setState({ maxTotal: data.sumDonations, maxNum: data.numDonations });
+      })
+      .catch(() => {
+        // console.log(e);
+      });
+
+    getUserInfo(386584)
+      .then((data) => {
+        this.setState({ ianTotal: data.sumDonations, ianNum: data.numDonations });
+      })
+      .catch(() => {
+        // console.log(e);
+      });
+
+    getUserInfo(375153)
+      .then((data) => {
+        this.setState({ emilyTotal: data.sumDonations, emilyNum: data.numDonations });
+      })
+      .catch(() => {
+        // console.log(e);
+      });
+
+    getUserInfo(377608)
+      .then((data) => {
+        this.setState({ ryanTotal: data.sumDonations, ryanNum: data.numDonations });
       })
       .catch(() => {
         // console.log(e);
@@ -63,8 +106,30 @@ export class Members extends React.Component {
                             <h3 className="member__name">{user.fullname}</h3>
                             <p className="member__bio">{user.bio}</p>
                             <div className="member__donations">
-                                <span className="member__donation-raised">### USD Raised</span>
-                                <span className="member__donation-num">x Donations Received</span>
+                                <span className="member__donation-raised">
+                                    {user.extralifeuserid == '359073' ? (
+                                        <>{this.state.maxTotal} </>
+                                    ) : user.extralifeuserid == '386584' ? (
+                                        <>{this.state.ianTotal} </>
+                                    ) : user.extralifeuserid == '375153' ? (
+                                        <>{this.state.emilyTotal} </>
+                                    ) : user.extralifeuserid == '377608' ? (
+                                        <>{this.state.ryanTotal} </>
+                                    ) : (<></>)}
+                                    USD Raised
+                                </span>
+                                <span className="member__donation-num">
+                                    {user.extralifeuserid == '359073' ? (
+                                        <>{this.state.maxNum} </>
+                                    ) : user.extralifeuserid == '386584' ? (
+                                        <>{this.state.ianNum} </>
+                                    ) : user.extralifeuserid == '375153' ? (
+                                        <>{this.state.emilyNum} </>
+                                    ) : user.extralifeuserid == '377608' ? (
+                                        <>{this.state.ryanNum} </>
+                                    ) : (<></>)}
+                                    Donations Received
+                                </span>
                                 <div className="member__donate">
                                     <CTALink
                                         link={"https://www.extra-life.org/index.cfm?fuseaction=donordrive.participant&participantID=" + user.extralifeuserid}
