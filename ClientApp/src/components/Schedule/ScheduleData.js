@@ -4,207 +4,103 @@ const scheduledata = {
       games: [
         {
           time: '8:00am',
-          name: 'TBD',
+          name: 'Spyro Reignited Trilogy',
         },
         {
           time: '9:00am',
-          name: 'TBD',
+          name: 'Spyro Reignited Trilogy',
         },
         {
           time: '10:00am',
-          name: 'TBD',
+          name: 'Celeste',
         },
         {
           time: '11:00am',
-          name: 'TBD',
+          name: 'Celeste',
         },
         {
           time: '12:00pm',
-          name: 'TBD',
+          name: 'Borderlands 3',
         },
         {
           time: '1:00pm',
-          name: 'TBD',
+          name: 'Borderlands 3',
         },
         {
           time: '2:00pm',
-          name: 'TBD',
+          name: 'Autonauts',
         },
         {
           time: '3:00pm',
-          name: 'TBD',
+          name: 'Autonauts',
         },
         {
           time: '4:00pm',
-          name: 'TBD',
+          name: 'Outer Wilds',
         },
         {
           time: '5:00pm',
-          name: 'TBD',
+          name: 'Outer Wilds',
         },
         {
           time: '6:00pm',
-          name: 'TBD',
+          name: 'Sekiro: Shadows Die Twice',
         },
         {
           time: '7:00pm',
-          name: 'TBD',
+          name: 'Sekiro: Shadows Die Twice',
         },
         {
           time: '8:00pm',
-          name: 'TBD',
+          name: 'Factorio',
         },
         {
           time: '9:00pm',
-          name: 'TBD',
+          name: 'Factorio',
         },
         {
           time: '10:00pm',
-          name: 'TBD',
+          name: 'Factorio',
         },
         {
           time: '11:00pm',
-          name: 'TBD',
+          name: 'Killing Floor 2',
         },
         {
           time: '12:00am',
-          name: 'TBD',
+          name: 'Killing Floor 2',
         },
         {
           time: '1:00am',
-          name: 'TBD',
+          name: 'Roguelike Power Hour',
         },
         {
           time: '1:00am (DST)',
-          name: 'TBD',
+          name: 'Roguelike Power Hour Returns',
         },
         {
           time: '2:00am',
-          name: 'TBD',
+          name: 'AI War 2',
         },
         {
           time: '3:00am',
-          name: 'TBD',
+          name: 'AI War 2',
         },
         {
           time: '4:00am',
-          name: 'TBD',
+          name: 'AI War 2',
         },
         {
           time: '5:00am',
-          name: 'TBD',
+          name: 'AI War 2',
         },
         {
           time: '6:00am',
-          name: 'TBD',
+          name: 'Rocket League',
         },
         {
           time: '7:00am',
-          name: 'TBD',
-        },
-      ],
-    },
-    eric: {
-      games: [
-        {
-          time: '8:00am',
-          name: 'TBD',
-        },
-        {
-          time: '9:00am',
-          name: 'TBD',
-        },
-        {
-          time: '10:00am',
-          name: 'TBD',
-        },
-        {
-          time: '11:00am',
-          name: 'TBD',
-        },
-        {
-          time: '12:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '1:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '2:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '3:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '4:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '5:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '6:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '7:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '8:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '9:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '10:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '11:00pm',
-          name: 'TBD',
-        },
-        {
-          time: '12:00am',
-          name: 'TBD',
-        },
-        {
-          time: '1:00am',
-          name: 'TBD',
-        },
-        {
-          time: '1:00am (DST)',
-          name: 'TBD',
-        },
-        {
-          time: '2:00am',
-          name: 'TBD',
-        },
-        {
-          time: '3:00am',
-          name: 'TBD',
-        },
-        {
-          time: '4:00am',
-          name: 'TBD',
-        },
-        {
-          time: '5:00am',
-          name: 'TBD',
-        },
-        {
-          time: '6:00am',
-          name: 'TBD',
-        },
-        {
-          time: '7:00am',
-          name: 'TBD',
+          name: 'Rocket League',
         },
       ],
     },
@@ -212,103 +108,103 @@ const scheduledata = {
       games: [
         {
           time: '8:00am',
-          name: 'TBD',
+          name: 'Divinity: Original Sin 2',
         },
         {
           time: '9:00am',
-          name: 'TBD',
+          name: 'Divinity: Original Sin 2',
         },
         {
           time: '10:00am',
-          name: 'TBD',
+          name: 'Portal 2',
         },
         {
           time: '11:00am',
-          name: 'TBD',
+          name: 'Portal 2',
         },
         {
           time: '12:00pm',
-          name: 'TBD',
+          name: 'Borderlands 3',
         },
         {
           time: '1:00pm',
-          name: 'TBD',
+          name: 'Borderlands 3',
         },
         {
           time: '2:00pm',
-          name: 'TBD',
+          name: 'Overwatch',
         },
         {
           time: '3:00pm',
-          name: 'TBD',
+          name: 'World War Z',
         },
         {
           time: '4:00pm',
-          name: 'TBD',
+          name: 'World War Z',
         },
         {
           time: '5:00pm',
-          name: 'TBD',
+          name: 'Overcooked 2',
         },
         {
           time: '6:00pm',
-          name: 'TBD',
+          name: 'Overcooked 2',
         },
         {
           time: '7:00pm',
-          name: 'TBD',
+          name: 'Deep Rock Galactic',
         },
         {
           time: '8:00pm',
-          name: 'TBD',
+          name: 'Factorio',
         },
         {
           time: '9:00pm',
-          name: 'TBD',
+          name: 'Factorio',
         },
         {
           time: '10:00pm',
-          name: 'TBD',
+          name: 'Factorio',
         },
         {
           time: '11:00pm',
-          name: 'TBD',
+          name: 'Killing Floor 2',
         },
         {
           time: '12:00am',
-          name: 'TBD',
+          name: 'Killing Floor 2',
         },
         {
           time: '1:00am',
-          name: 'TBD',
+          name: 'Stick Fight: The Game',
         },
         {
           time: '1:00am (DST)',
-          name: 'TBD',
+          name: 'Magicite',
         },
         {
           time: '2:00am',
-          name: 'TBD',
+          name: 'Streets of Rogue',
         },
         {
           time: '3:00am',
-          name: 'TBD',
+          name: 'Age of Empires 3',
         },
         {
           time: '4:00am',
-          name: 'TBD',
+          name: 'Age of Empires 3',
         },
         {
           time: '5:00am',
-          name: 'TBD',
+          name: 'Overwatch',
         },
         {
           time: '6:00am',
-          name: 'TBD',
+          name: 'Overwatch',
         },
         {
           time: '7:00am',
-          name: 'TBD',
+          name: 'Overwatch',
         },
       ],
     },
@@ -316,103 +212,103 @@ const scheduledata = {
       games: [
         {
           time: '8:00am',
-          name: 'TBD',
+          name: 'Divinity: Original Sin 2',
         },
         {
           time: '9:00am',
-          name: 'TBD',
+          name: 'Divinity: Original Sin 2',
         },
         {
           time: '10:00am',
-          name: 'TBD',
+          name: 'Portal 2',
         },
         {
           time: '11:00am',
-          name: 'TBD',
+          name: 'Portal 2',
         },
         {
           time: '12:00pm',
-          name: 'TBD',
+          name: 'Undertale',
         },
         {
           time: '1:00pm',
-          name: 'TBD',
+          name: 'Undertale',
         },
         {
           time: '2:00pm',
-          name: 'TBD',
+          name: 'Overwatch',
         },
         {
           time: '3:00pm',
-          name: 'TBD',
+          name: 'Dragon Age: Origins',
         },
         {
           time: '4:00pm',
-          name: 'TBD',
+          name: 'Star Wars: Knights of the Old Republic',
         },
         {
           time: '5:00pm',
-          name: 'TBD',
+          name: 'Overcooked 2',
         },
         {
           time: '6:00pm',
-          name: 'TBD',
+          name: 'Overcooked 2',
         },
         {
           time: '7:00pm',
-          name: 'TBD',
+          name: 'Stardew Valley',
         },
         {
           time: '8:00pm',
-          name: 'TBD',
+          name: 'Stardew Valley',
         },
         {
           time: '9:00pm',
-          name: 'TBD',
+          name: 'Overwatch',
         },
         {
           time: '10:00pm',
-          name: 'TBD',
+          name: 'Overwatch',
         },
         {
           time: '11:00pm',
-          name: 'TBD',
+          name: 'Killing Floor 2',
         },
         {
           time: '12:00am',
-          name: 'TBD',
+          name: 'Killing Floor 2',
         },
         {
           time: '1:00am',
-          name: 'TBD',
+          name: 'The Outer Worlds',
         },
         {
           time: '1:00am (DST)',
-          name: 'TBD',
+          name: 'The Outer Worlds',
         },
         {
           time: '2:00am',
-          name: 'TBD',
+          name: 'The Outer Worlds',
         },
         {
           time: '3:00am',
-          name: 'TBD',
+          name: 'Age of Empires 3',
         },
         {
           time: '4:00am',
-          name: 'TBD',
+          name: 'Age of Empires 3',
         },
         {
           time: '5:00am',
-          name: 'TBD',
+          name: 'Overwatch',
         },
         {
           time: '6:00am',
-          name: 'TBD',
+          name: 'Overwatch',
         },
         {
           time: '7:00am',
-          name: 'TBD',
+          name: 'Overwatch',
         },
       ],
     },
@@ -420,103 +316,103 @@ const scheduledata = {
       games: [
         {
           time: '8:00am',
-          name: 'TBD',
+          name: 'A Hat in Time',
         },
         {
           time: '9:00am',
-          name: 'TBD',
+          name: 'A Hat in Time',
         },
         {
           time: '10:00am',
-          name: 'TBD',
+          name: 'A Hat in Time',
         },
         {
           time: '11:00am',
-          name: 'TBD',
+          name: '60 Parsecs',
         },
         {
           time: '12:00pm',
-          name: 'TBD',
+          name: '60 Parsecs',
         },
         {
           time: '1:00pm',
-          name: 'TBD',
+          name: 'Spyro Reignited Trilogy',
         },
         {
           time: '2:00pm',
-          name: 'TBD',
+          name: 'Spyro Reignited Trilogy',
         },
         {
           time: '3:00pm',
-          name: 'TBD',
+          name: '7 Days to Die',
         },
         {
           time: '4:00pm',
-          name: 'TBD',
+          name: '7 Days to Die',
         },
         {
           time: '5:00pm',
-          name: 'TBD',
+          name: '7 Days to Die',
         },
         {
           time: '6:00pm',
-          name: 'TBD',
+          name: 'Undertale',
         },
         {
           time: '7:00pm',
-          name: 'TBD',
+          name: 'Undertale',
         },
         {
           time: '8:00pm',
-          name: 'TBD',
+          name: 'Factorio',
         },
         {
           time: '9:00pm',
-          name: 'TBD',
+          name: 'Factorio',
         },
         {
           time: '10:00pm',
-          name: 'TBD',
+          name: 'Factorio',
         },
         {
           time: '11:00pm',
-          name: 'TBD',
+          name: 'Killing Floor 2',
         },
         {
           time: '12:00am',
-          name: 'TBD',
+          name: 'Killing Floor 2',
         },
         {
           time: '1:00am',
-          name: 'TBD',
+          name: 'Crash Bandicoot N. Sane Trilogy',
         },
         {
           time: '1:00am (DST)',
-          name: 'TBD',
+          name: 'Crash Bandicoot N. Sane Trilogy',
         },
         {
           time: '2:00am',
-          name: 'TBD',
+          name: 'Crash Bandicoot N. Sane Trilogy',
         },
         {
           time: '3:00am',
-          name: 'TBD',
+          name: 'FTL',
         },
         {
           time: '4:00am',
-          name: 'TBD',
+          name: 'FTL',
         },
         {
           time: '5:00am',
-          name: 'TBD',
+          name: 'One Deck Dungeon',
         },
         {
           time: '6:00am',
-          name: 'TBD',
+          name: 'One Deck Dungeon',
         },
         {
           time: '7:00am',
-          name: 'TBD',
+          name: 'One Deck Dungeon',
         },
       ],
     },

@@ -10,7 +10,7 @@ class GameListRow extends React.Component {
 
     return (
       <tr>
-        <td className="table-column-first">{time}</td>
+        <td>{time}</td>
         {
           items.map(column => (
             <GameListGroupItem

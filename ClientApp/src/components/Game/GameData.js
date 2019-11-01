@@ -6,14 +6,36 @@ const gamedata = [
   {
     name: 'TBD',
     link: '',
+    image: '/images/games/tbd.png',
+  },
+  {
+    name: '7 Days to Die',
+    link: 'https://store.steampowered.com/app/251570/7_Days_to_Die/',
+    image: '/images/games/7-days-to-die.jpg',
+  },
+  {
+    name: '60 Parsecs',
+    link: 'https://store.steampowered.com/app/646270/60_Parsecs/',
+    image: '/images/games/60-parsecs.jpg',
   },
   {
     name: 'A Hat in Time',
     link: 'http://hatintime.com/',
+    image: '/images/games/a-hat-in-time.jpg',
+  },
+  {
+    name: 'Age of Empires 3',
+    link: 'https://store.steampowered.com/app/105450/Age_of_Empires_III_Complete_Collection/',
+    image: '/images/games/age-of-empires-3.jpg',
   },
   {
     name: 'AI War',
     link: 'http://arcengames.com/ai-war/',
+  },
+  {
+    name: 'AI War 2',
+    link: 'https://store.steampowered.com/app/573410/AI_War_2/',
+    image: '/images/games/ai-war-2.jpg',
   },
   {
     name: 'Alan Wake',
@@ -32,12 +54,27 @@ const gamedata = [
     link: 'https://store.steampowered.com/app/57300/Amnesia_The_Dark_Descent/',
   },
   {
+    name: 'Autonauts',
+    link: 'https://store.steampowered.com/app/979120/Autonauts/',
+    image: '/images/games/autonauts.jpg',
+  },
+  {
     name: 'Besiege',
     link: 'http://www.besiegethegame.com/',
   },
   {
     name: 'Binding of Isaac: Rebirth',
     link: 'https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/',
+  },
+  {
+    name: 'Borderlands 3',
+    link: 'https://www.epicgames.com/store/en-US/product/borderlands-3/home',
+    image: '/images/games/borderlands-3.jpg',
+  },
+  {
+    name: 'Celeste',
+    link: 'https://store.steampowered.com/app/504230/Celeste/',
+    image: '/images/games/celeste.jpg',
   },
   {
     name: 'Cogmind',
@@ -50,6 +87,11 @@ const gamedata = [
   {
     name: 'Cook, Serve, Delicious 2!!',
     link: 'http://www.cookservedelicious.com/main/',
+  },
+  {
+    name: 'Crash Bandicoot N. Sane Trilogy',
+    link: 'https://store.steampowered.com/app/731490/Crash_Bandicoot_N_Sane_Trilogy/',
+    image: '/images/games/crash-bandicoot-n-sane-trilogy.jpg',
   },
   {
     name: 'Crypt of the NecroDancer',
@@ -66,6 +108,7 @@ const gamedata = [
   {
     name: 'Deep Rock Galactic',
     link: 'https://www.deeprockgalactic.com/',
+    image: '/images/games/deep-rock-galactic.jpg',
   },
   {
     name: 'Destiny 2',
@@ -76,12 +119,22 @@ const gamedata = [
     link: 'https://us.battle.net/d3/en/',
   },
   {
+    name: 'Divinity: Original Sin 2',
+    link: 'https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/',
+    image: '/images/games/divinity-original-sin-2.jpg',
+  },
+  {
     name: "Don't Starve",
     link: 'https://www.klei.com/games/dont-starve-together',
   },
   {
     name: 'Doom',
     link: 'https://doom.com/en-us/',
+  },
+  {
+    name: 'Dragon Age: Origins',
+    link: 'https://store.steampowered.com/app/17450/Dragon_Age_Origins/',
+    image: '/images/games/dragon-age-origins.jpg',
   },
   {
     name: 'Dungeon of the Endless',
@@ -108,6 +161,11 @@ const gamedata = [
     link: 'https://www.totalwar.com/empire-product-page',
   },
   {
+    name: 'Factorio',
+    link: 'https://store.steampowered.com/app/427520/Factorio/',
+    image: '/images/games/factorio.jpg',
+  },
+  {
     name: 'Final Fantasy XIV',
     link: 'https://www.finalfantasyxiv.com/',
   },
@@ -118,6 +176,7 @@ const gamedata = [
   {
     name: 'FTL',
     link: 'https://subsetgames.com/ftl.html',
+    image: '/images/games/ftl-faster-than-light.jpg',
   },
   {
     name: 'Heroes of the Storm',
@@ -154,6 +213,7 @@ const gamedata = [
   {
     name: 'Killing Floor 2',
     link: 'http://www.killingfloor2.com/',
+    image: '/images/games/killing-floor-2.jpg',
   },
   {
     name: 'Left 4 Dead 2',
@@ -162,6 +222,11 @@ const gamedata = [
   {
     name: 'Legend of Grimrock',
     link: 'http://www.grimrock.net/',
+  },
+  {
+    name: 'Magicite',
+    link: 'https://store.steampowered.com/app/268750/Magicite/',
+    image: '/images/games/magicite.jpg',
   },
   {
     name: 'Mark of the Ninja',
@@ -184,12 +249,28 @@ const gamedata = [
     link: 'http://www.offworldgame.com/',
   },
   {
+    name: 'One Deck Dungeon',
+    link: 'https://store.steampowered.com/app/770100/One_Deck_Dungeon/',
+    image: '/images/games/one-deck-dungeon.jpg',
+  },
+  {
     name: 'One Finger Death Punch',
     link: 'https://store.steampowered.com/app/264200/One_Finger_Death_Punch/',
   },
   {
+    name: 'Outer Wilds',
+    link: 'https://store.steampowered.com/app/753640/Outer_Wilds/',
+    image: '/images/games/outer-wilds.jpg',
+  },
+  {
+    name: 'Overcooked 2',
+    link: 'https://store.steampowered.com/app/728880/Overcooked_2/',
+    image: '/images/games/overcooked-2.jpg',
+  },
+  {
     name: 'Overwatch',
     link: 'https://playoverwatch.com/en-us/',
+    image: '/images/games/overwatch.jpg',
   },
   {
     name: 'Oxygen Not Included',
@@ -200,12 +281,58 @@ const gamedata = [
     link: 'https://www.planetcoaster.com/',
   },
   {
+    name: 'Portal 2',
+    link: 'https://store.steampowered.com/app/620/Portal_2/',
+    image: '/images/games/portal-2.jpg',
+  },
+  {
     name: 'Rocket League',
     link: 'https://www.rocketleague.com/',
+    image: '/images/games/rocket-league.jpg',
+  },
+  {
+    name: 'Roguelike Power Hour',
+    link: 'https://www.gridsagegames.com/cogmind/',
+    image: '/images/games/roguelike-power-hour.jpg',
+  },
+  {
+    name: 'Roguelike Power Hour Returns',
+    link: 'http://www.cavesofqud.com/',
+    image: '/images/games/roguelike-power-hour.jpg',
+  },
+  {
+    name: 'Sekiro: Shadows Die Twice',
+    link: 'https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice/',
+    image: '/images/games/sekiro-shadows-die-twice.jpg',
+  },
+  {
+    name: 'Spyro Reignited Trilogy',
+    link: 'https://store.steampowered.com/app/996580/Spyro_Reignited_Trilogy/',
+    image: '/images/games/spyro-reignited-trilogy.jpg',
+  },
+  {
+    name: 'Star Wars: Knights of the Old Republic',
+    link: 'https://store.steampowered.com/app/32370/STAR_WARS__Knights_of_the_Old_Republic/',
+    image: '/images/games/star-wars-knights-of-the-old-republic.jpg',
   },
   {
     name: 'Starbound',
     link: 'https://playstarbound.com/',
+  },
+  {
+    name: 'Stardew Valley',
+    link: 'https://store.steampowered.com/app/413150/Stardew_Valley/',
+    image: '/images/games/stardew-valley.jpg',
+  },
+  {
+    name: 'Stick Fight: The Game',
+    link: 'https://store.steampowered.com/app/674940/Stick_Fight_The_Game/',
+    image: '/images/games/stick-fight-the-game.jpg',
+  },
+  {
+    name: 'Streets of Rogue',
+    link: 'https://store.steampowered.com/app/512900/Streets_of_Rogue/',
+    image: '/images/games/streets-of-rogue.jpg',
   },
   {
     name: 'Team Fortress 2',
@@ -224,6 +351,11 @@ const gamedata = [
     link: 'http://www.thelongdark.com/',
   },
   {
+    name: 'The Outer Worlds',
+    link: 'https://outerworlds.obsidian.net/en',
+    image: '/images/games/the-outer-worlds.jpg',
+  },
+  {
     name: 'The Typing of The Dead: Overkill',
     link: 'https://store.steampowered.com/app/246580/The_Typing_of_The_Dead_Overkill/',
   },
@@ -238,6 +370,11 @@ const gamedata = [
   {
     name: 'Tooth and Tail',
     link: 'http://www.toothandtailgame.com/',
+  },
+  {
+    name: 'Undertale',
+    link: 'https://store.steampowered.com/app/391540/Undertale/',
+    image: '/images/games/undertale.jpg',
   },
   {
     name: 'Vermintide 2',
@@ -262,6 +399,11 @@ const gamedata = [
   {
     name: 'World of Warcraft',
     link: 'https://worldofwarcraft.com/',
+  },
+  {
+    name: 'World War Z',
+    link: 'https://www.epicgames.com/store/en-US/product/world-war-z/home',
+    image: '/images/games/world-war-z.jpg',
   },
   {
     name: 'WWIII',
