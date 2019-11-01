@@ -176,11 +176,11 @@ const scheduledata = {
         },
         {
           time: '1:00am',
-          name: 'TBD',
+          name: 'Stick Fight: The Game',
         },
         {
           time: '1:00am (DST)',
-          name: 'TBD',
+          name: 'Magicite',
         },
         {
           time: '2:00am',
@@ -244,7 +244,7 @@ const scheduledata = {
         },
         {
           time: '4:00pm',
-          name: 'Dragon Age: Origins',
+          name: 'Star Wars: Knights of the Old Republic',
         },
         {
           time: '5:00pm',
@@ -280,15 +280,15 @@ const scheduledata = {
         },
         {
           time: '1:00am',
-          name: 'TBD',
+          name: 'The Outer Worlds',
         },
         {
           time: '1:00am (DST)',
-          name: 'TBD',
+          name: 'The Outer Worlds',
         },
         {
           time: '2:00am',
-          name: 'Star Wars: Knights of the Old Republic',
+          name: 'The Outer Worlds',
         },
         {
           time: '3:00am',

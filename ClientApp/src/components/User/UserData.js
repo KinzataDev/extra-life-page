@@ -52,7 +52,7 @@ const userdata = [
     twitchhandle: 'atani_39',
     icon: '/images/members/emily.png',
     extralifeuserid: '375153',
-    bio: 'Bio for Emily',
+    bio: 'Oh hey, didn\'t see you there. I was busy tending to my farm and beating up baddies. Wanna help?',
   },
 ];
 

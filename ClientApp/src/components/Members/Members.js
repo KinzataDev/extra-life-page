@@ -96,7 +96,8 @@ export class Members extends React.Component {
     return (
       <div id="members" className="members">
         <Container>
-            <h2 className="members__title">Team Mediocrely Members</h2>
+            <h2 className="members__totalraised">Total Raised so far: ${this.state.donationAmount}</h2>
+            <h3 className="members__title">Team Mediocrely Members</h3>
 
             {
                 users.map(user => (

@@ -224,6 +224,11 @@ const gamedata = [
     link: 'http://www.grimrock.net/',
   },
   {
+    name: 'Magicite',
+    link: 'https://store.steampowered.com/app/268750/Magicite/',
+    image: '/images/games/magicite.jpg',
+  },
+  {
     name: 'Mark of the Ninja',
     link: 'https://www.klei.com/games/mark-ninja',
   },
@@ -320,6 +325,11 @@ const gamedata = [
     image: '/images/games/stardew-valley.jpg',
   },
   {
+    name: 'Stick Fight: The Game',
+    link: 'https://store.steampowered.com/app/674940/Stick_Fight_The_Game/',
+    image: '/images/games/stick-fight-the-game.jpg',
+  },
+  {
     name: 'Streets of Rogue',
     link: 'https://store.steampowered.com/app/512900/Streets_of_Rogue/',
     image: '/images/games/streets-of-rogue.jpg',
@@ -339,6 +349,11 @@ const gamedata = [
   {
     name: 'The Long Dark',
     link: 'http://www.thelongdark.com/',
+  },
+  {
+    name: 'The Outer Worlds',
+    link: 'https://outerworlds.obsidian.net/en',
+    image: '/images/games/the-outer-worlds.jpg',
   },
   {
     name: 'The Typing of The Dead: Overkill',
