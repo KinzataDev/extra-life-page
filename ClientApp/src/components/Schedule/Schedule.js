@@ -131,7 +131,7 @@ export class Schedule extends React.Component {
             </thead>
             <tbody>
               <tr className="schedule__inplay">
-                <td>In Play</td>
+                <td></td>
                 {
                   users.map(row => (
                     <td key={row.name}>
