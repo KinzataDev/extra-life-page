@@ -47,7 +47,10 @@
     font-size: 18px;
     color: #fff;
     padding-left: 10px;
-    width: 120px;
+}
+
+.schedule__table td:first-child ~ td {
+    width: 22.5%;
 }
 
 .schedule__inplay {
@@ -77,6 +80,8 @@
 
 .schedule__game-image {
     display: block;
+    max-width: 111px;
+    height: auto;
 }
 
 .schedule__game-link {
