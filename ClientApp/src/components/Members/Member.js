@@ -25,7 +25,7 @@ class Member extends React.Component {
         this.setState({ sumDonations: data.sumDonations, numDonations: data.numDonations });
       })
       .catch((e) => {
-        console.log(e);
+        //console.log(e);
       });
   }
 
