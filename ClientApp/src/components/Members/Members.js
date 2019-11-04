@@ -108,25 +108,25 @@ export class Members extends React.Component {
                             <p className="member__bio">{user.bio}</p>
                             <div className="member__donations">
                                 <span className="member__donation-raised">
-                                    {user.extralifeuserid == '359073' ? (
+                                    {user.extralifeuserid === '359073' ? (
                                         <>{this.state.maxTotal} </>
-                                    ) : user.extralifeuserid == '386584' ? (
+                                    ) : user.extralifeuserid === '386584' ? (
                                         <>{this.state.ianTotal} </>
-                                    ) : user.extralifeuserid == '375153' ? (
+                                    ) : user.extralifeuserid === '375153' ? (
                                         <>{this.state.emilyTotal} </>
-                                    ) : user.extralifeuserid == '377608' ? (
+                                    ) : user.extralifeuserid === '377608' ? (
                                         <>{this.state.ryanTotal} </>
                                     ) : (<></>)}
                                     USD Raised
                                 </span>
                                 <span className="member__donation-num">
-                                    {user.extralifeuserid == '359073' ? (
+                                    {user.extralifeuserid === '359073' ? (
                                         <>{this.state.maxNum} </>
-                                    ) : user.extralifeuserid == '386584' ? (
+                                    ) : user.extralifeuserid === '386584' ? (
                                         <>{this.state.ianNum} </>
-                                    ) : user.extralifeuserid == '375153' ? (
+                                    ) : user.extralifeuserid === '375153' ? (
                                         <>{this.state.emilyNum} </>
-                                    ) : user.extralifeuserid == '377608' ? (
+                                    ) : user.extralifeuserid === '377608' ? (
                                         <>{this.state.ryanNum} </>
                                     ) : (<></>)}
                                     Donations Received
