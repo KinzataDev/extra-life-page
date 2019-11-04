@@ -29,7 +29,7 @@ export class CTALink extends Component {
 }
 
 CTALink.propTypes = {
-    link: PropTypes.string.isRequired,
+    link: PropTypes.string,
     title: PropTypes.string.isRequired,
-    type: PropTypes.string.isRequired,
+    type: PropTypes.string,
 }
