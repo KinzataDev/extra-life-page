@@ -22,7 +22,7 @@ export class InfoCarousel extends Component {
         <Container>
           <Slider {...settings} className="info-carousel__slider">
             <a href="#members" className="info-carousel__slide">
-              <img src="/images/carousel_extralife.jpg" />
+              <img src="/images/carousel_extralife.jpg" alt="" />
               <div className="info-carousel__slide-cta" style={{right: 75 + 'px'}}>
                 <CTALink
                     title='Donate'
@@ -31,7 +31,7 @@ export class InfoCarousel extends Component {
             </div>
             </a>
             <a href="#members" className="info-carousel__slide">
-              <img src="/images/carousel_streaming.jpg" />
+              <img src="/images/carousel_streaming.jpg" alt=""/>
               <div className="info-carousel__slide-cta">
                   <CTALink
                       title='Donate'
